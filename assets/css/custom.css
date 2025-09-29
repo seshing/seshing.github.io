@@ -1,2 +1,20 @@
-/* DO NOT WRITE ANY STYLE IN THIS FILE */
-/* If you want to add your own styles, please write it in the `./assets/css/custom.css` file. */
+/* Add your own custom styles here */
+.profile-img {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto; /* Centers the image horizontally */
+    text-align: center; /* Ensures alignment in parent container */
+    transform: translateX(-10px); /* Moves the image slightly to the left */
+}
+
+.social-links i {
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+.navbar-nav {
+    justify-content: center;
+    transform: translateX(120px); /* Moves the image slightly to the left */
+}
