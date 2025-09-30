@@ -1,12 +1,12 @@
 #################### default parameters ############################
 # favicon module: https://github.com/gethugothemes/hugo-modules/tree/master/images#favicon-implementation
-favicon = "images/favicon.png"
+favicon = "/images/logo_xc_bold.png"
 # logo module: https://github.com/gethugothemes/hugo-modules/tree/master/images#logo-implementation
-logo = ""
-logo_darkmode = ""
+logo = "/images/logo_xc_bold.png"
+logo_darkmode = "/images/logo_xc_bold_dark.png"
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
-logo_width = "160px"
+logo_width = "42px"
 logo_height = "32px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
@@ -37,7 +37,7 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [navigation_button]
-enable = true
+enable = false
 label = "get a quote"
 link = "contact"
 

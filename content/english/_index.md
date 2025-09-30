@@ -12,20 +12,27 @@ banner:
   social_links:
     - platform: "LinkedIn"
       icon: "fab fa-linkedin"
-      link: "https://www.linkedin.com/in/xiucheng"
+      link: "https://www.linkedin.com/in/xiucheng-liang/"
     - platform: "Google Scholar"
       icon: "fab fa-google"
-      link: "https://scholar.google.com/citations?user=example"
+      link: "https://scholar.google.com/citations?user=ThZtaeoAAAAJ&hl=en"
     - platform: "Github"
       icon: "fab fa-github"
-      link: "https://scholar.google.com/citations?user=example"
+      link: "https://github.com/seshing"
     - platform: "ResearchGate"
       icon: "fab fa-researchgate"
-      link: "https://scholar.google.com/citations?user=example"
-    # - platform: "Email"
-    #   icon: "fab fa-mail"
-    #   link: "https://scholar.google.com/citations?user=example"
-
+      link: "https://www.researchgate.net/profile/Liang-Xiucheng/research"
+    - platform: "Email"
+      icon: "fas fa-envelope"
+      link: "mailto:xiucheng@u.nus.edu"
+  research_interests:
+    - "Urban Analytics"
+    - "Computer Vision"
+    - "Building-level Urban Environment Analysis"
+    - "Graph Neural Networks"
+    - "Multi-modal Geospatial Data Integration"
+    - "Street View Imagery"
+    - "Urban Sustainability"
 
 publications:
   - title: "Revealing spatio-temporal evolution of urban visual environments with street view imagery"
@@ -36,45 +43,86 @@ publications:
     # cite_link: "https://example.com/citation-deep-learning-urban-analytics"
     doi_link: "https://doi.org/10.1234/urbananalytics.2023.001"
     bibtex: |
-      @article{liang2023_deep_urban_analytics,
-        author  = {Liang, Xiucheng},
-        title   = {Deep Learning for Urban Analytics: A Comprehensive Review},
-        journal = {Journal of Urban Computing},
-        year    = {2023},
-        doi     = {10.1234/urbananalytics.2023.001}
+      @article{liang2023revealing,
+      title={Revealing spatio-temporal evolution of urban visual environments with street view imagery},
+      author={Liang, Xiucheng and Zhao, Tianhong and Biljecki, Filip},
+      journal={Landscape and Urban Planning},
+      volume={237},
+      pages={104802},
+      year={2023},
+      publisher={Elsevier}
       }
 
-  - title: "Graph Neural Networks for Building Attribute Prediction"
+  - title: "Evaluating human perception of building exteriors using street view imagery"
     authors:
-      - "Xiucheng Liang"
-      - "John Doe"
-    paper_info: "Presented at the International Conference on Urban Data Science, 2022"
-    pdf_link: "https://example.com/gnn-building-attributes.pdf"
-    cite_link: "https://example.com/citation-gnn-building-attributes"
-    doi_link: "https://doi.org/10.1234/urbananalytics.2022.002"
+      - "**Xiucheng Liang**, Jiat Hwee Chang, Song Gao, Tianhong Zhao, Filip Biljecki"
+    paper_info: "Published in Building and Environment, 2024"
+    pdf_link: "https://ual.sg/publication/2024-bae-building/2024-bae-building.pdf"
+    # cite_link: "https://example.com/citation-gnn-building-attributes"
+    doi_link: "https://doi.org/10.1016/j.buildenv.2024.111875"
+    bibtex: |
+      @article{liang2024evaluating,
+      title={Evaluating human perception of building exteriors using street view imagery},
+      author={Liang, Xiucheng and Chang, Jiat Hwee and Gao, Song and Zhao, Tianhong and Biljecki, Filip},
+      journal={Building and Environment},
+      volume={263},
+      pages={111875},
+      year={2024},
+      publisher={Elsevier}
+      }
 
-  - title: "Multi-Modal Geospatial Data Integration for Urban Form Analysis"
+
+  - title: "OpenFACADES: an open framework for architectural caption and attribute data enrichment via street view imagery"
     authors:
-      - "Xiucheng Liang"
-      - "Jane Smith"
-    paper_info: "Published in Geospatial Journal, 2021"
-    pdf_link: "https://example.com/multi-modal-geospatial.pdf"
-    cite_link: "https://example.com/citation-multi-modal-geospatial"
-    doi_link: "https://doi.org/10.1234/geospatial.2021.003"
+      - "**Xiucheng Liang**, Jinheng Xie, Tianhong Zhao, Rudi Stouffs, Filip Biljecki"
+    paper_info: "arXiv preprint arXiv:2504.02866"
+    pdf_link: "https://arxiv.org/pdf/2504.02866"
+    code_link: "https://github.com/seshing/OpenFACADES"
+    # cite_link: "https://example.com/citation-multi-modal-geospatial"s
+    # doi_link: "https://doi.org/10.1234/geospatial.2021.003"
+    bibtex: |
+      @article{liang2025openfacades,
+      title={OpenFACADES: An Open Framework for Architectural Caption and Attribute Data Enrichment via Street View Imagery},
+      author={Liang, Xiucheng and Xie, Jinheng and Zhao, Tianhong and Stouffs, Rudi and Biljecki, Filip},
+      journal={arXiv preprint arXiv:2504.02866},
+      year={2025}
+      }
+
+  - title: "Sensing urban soundscapes from street view imagery"
+    authors:
+      - "Tianhong Zhao, **Xiucheng Liang**, Wei Tu, Zhengdong Huang, Filip Biljecki"
+    paper_info: "Published in Computers, Environment and Urban Systems, 2023"
+    pdf_link: "https://ual.sg/publication/2023-ceus-soundscapes/2023-ceus-soundscapes.pdf"
+    code_link: "https://github.com/ualsg/Visual-soundscapes"
+    # cite_link: "https://example.com/citation-multi-modal-geospatial"s
+    doi_link: "https://doi.org/10.1016/j.compenvurbsys.2022.101915"
+    bibtex: |
+      @article{zhao2023sensing,
+        title={Sensing urban soundscapes from street view imagery},
+        author={Zhao, Tianhong and Liang, Xiucheng and Tu, Wei and Huang, Zhengdong and Biljecki, Filip},
+        journal={Computers, Environment and Urban Systems},
+        volume={99},
+        pages={101915},
+        year={2023},
+        publisher={Elsevier}
+      }
+  
+    button:
+      enable: True
 
 
 # Features
-features_noimg:
-  - title: "Experience"
-    # image: "/images/new-feature.png"
-    # content: "Description of the new feature."
-    bulletpoints:
-      - "Key point 1"
-      - "Key point 2"
-    button:
-      enable: true
-      label: "Learn More"
-      link: "/new-feature"
+# features_noimg:
+#   - title: "Experience"
+#     # image: "/images/new-feature.png"
+#     # content: "Description of the new feature."
+#     bulletpoints:
+#       - "Key point 1"
+#       - "Key point 2"
+#     button:
+#       enable: true
+#       label: "Learn More"
+#       link: "/new-feature"
   
 experience:
   - logo: 

@@ -1,262 +1,203 @@
 ---
-title: "Elements"
-# meta title
-meta_title: ""
-# meta description
-description: "This is meta description"
-# save as draft
+title: "Publications"
+meta_title: "Publications by Xiucheng Liang"
+description: "Complete list of publications with sorting and filtering options"
 draft: false
+layout: "elements"
+
+publications:
+  - title: "Revealing spatio-temporal evolution of urban visual environments with street view imagery"
+    year: 2023
+    authors:
+      - "**Xiucheng Liang**, Tianhong Zhao, Filip Biljecki"
+    paper_info: "Published in Landscape and Urban Planning, 2023"
+    pdf_link: "https://ual.sg/publication/2023-landup-svi-evolution/2023-landup-svi-evolution.pdf"
+    doi_link: "https://doi.org/10.1016/j.landurbplan.2023.104802"
+    bibtex: |
+      @article{liang2023revealing,
+      title={Revealing spatio-temporal evolution of urban visual environments with street view imagery},
+      author={Liang, Xiucheng and Zhao, Tianhong and Biljecki, Filip},
+      journal={Landscape and Urban Planning},
+      volume={237},
+      pages={104802},
+      year={2023},
+      publisher={Elsevier}
+      }
+
+  - title: "Evaluating human perception of building exteriors using street view imagery"
+    year: 2024
+    authors:
+      - "**Xiucheng Liang**, Jiat Hwee Chang, Song Gao, Tianhong Zhao, Filip Biljecki"
+    paper_info: "Published in Building and Environment, 2024"
+    pdf_link: "https://ual.sg/publication/2024-bae-building/2024-bae-building.pdf"
+    doi_link: "https://doi.org/10.1016/j.buildenv.2024.111875"
+    bibtex: |
+      @article{liang2024evaluating,
+      title={Evaluating human perception of building exteriors using street view imagery},
+      author={Liang, Xiucheng and Chang, Jiat Hwee and Gao, Song and Zhao, Tianhong and Biljecki, Filip},
+      journal={Building and Environment},
+      volume={263},
+      pages={111875},
+      year={2024},
+      publisher={Elsevier}
+      }
+
+  - title: "OpenFACADES: an open framework for architectural caption and attribute data enrichment via street view imagery"
+    year: 2025
+    authors:
+      - "**Xiucheng Liang**, Jinheng Xie, Tianhong Zhao, Rudi Stouffs, Filip Biljecki"
+    paper_info: "arXiv preprint arXiv:2504.02866"
+    pdf_link: "https://arxiv.org/pdf/2504.02866"    
+    code_link: "https://github.com/seshing/OpenFACADES"
+    bibtex: |
+      @article{liang2025openfacades,
+      title={OpenFACADES: An Open Framework for Architectural Caption and Attribute Data Enrichment via Street View Imagery},
+      author={Liang, Xiucheng and Xie, Jinheng and Zhao, Tianhong and Stouffs, Rudi and Biljecki, Filip},
+      journal={arXiv preprint arXiv:2504.02866},
+      year={2025}
+      }
+
+  - title: "Sensing urban soundscapes from street view imagery"
+    year: 2023
+    authors:
+      - "Tianhong Zhao, **Xiucheng Liang**, Wei Tu, Zhengdong Huang, Filip Biljecki"
+    paper_info: "Published in Computers, Environment and Urban Systems, 2023"
+    pdf_link: "https://ual.sg/publication/2023-ceus-soundscapes/2023-ceus-soundscapes.pdf"
+    code_link: "https://github.com/ualsg/Visual-soundscapes"
+    doi_link: "https://doi.org/10.1016/j.compenvurbsys.2022.101915"
+    bibtex: |
+      @article{zhao2023sensing,
+        title={Sensing urban soundscapes from street view imagery},
+        author={Zhao, Tianhong and Liang, Xiucheng and Tu, Wei and Huang, Zhengdong and Biljecki, Filip},
+        journal={Computers, Environment and Urban Systems},
+        volume={99},
+        pages={101915},
+        year={2023},
+        publisher={Elsevier}
+      }
+
+  - title: "Sensitivity of measuring the urban form and greenery using street-level imagery: A comparative study of approaches and visual perspectives"
+    year: 2023
+    authors:
+      - "Filip Biljecki, Tianhong Zhao, **Xiucheng Liang**, Yujun Hou"
+    paper_info: "Published in International Journal of Applied Earth Observation and Geoinformation, 2023"
+    pdf_link: "https://ual.sg/publication/2023-jag-svi-sensitivity/2023-jag-svi-sensitivity.pdf"
+    # code_link: "https://github.com/ualsg/Visual-soundscapes"
+    doi_link: "https://doi.org/10.1016/j.jag.2023.103385"
+    bibtex: |
+      @article{2023_jag_svi_sensitivity,
+        author = {Filip Biljecki and Tianhong Zhao and Xiucheng Liang and Yujun Hou},
+        doi = {10.1016/j.jag.2023.103385},
+        journal = {International Journal of Applied Earth Observation and Geoinformation},
+        pages = {103385},
+        title = {{Sensitivity of measuring the urban form and greenery using street-level imagery: A comparative study of approaches and visual perspectives}},
+        volume = {122},
+        year = {2023}
+        }
+
+#   - title: "Local climate zones: Lessons from singapore and potential improvement with street view imagery"
+#     year: 2022
+#     authors:
+#       - "Filip Biljecki, Tianhong Zhao, **Xiucheng Liang**, Yujun Hou"
+#     paper_info: "Published in International Journal of Applied Earth Observation and Geoinformation, 2023"
+#     pdf_link: "https://ual.sg/publication/2023-jag-svi-sensitivity/2023-jag-svi-sensitivity.pdf"
+#     # code_link: "https://github.com/ualsg/Visual-soundscapes"
+#     doi_link: "https://doi.org/10.1016/j.jag.2023.103385"
+#     bibtex: |
+#       @article{2023_jag_svi_sensitivity,
+#         author = {Filip Biljecki and Tianhong Zhao and Xiucheng Liang and Yujun Hou},
+#         doi = {10.1016/j.jag.2023.103385},
+#         journal = {International Journal of Applied Earth Observation and Geoinformation},
+#         pages = {103385},
+#         title = {{Sensitivity of measuring the urban form and greenery using street-level imagery: A comparative study of approaches and visual perspectives}},
+#         volume = {122},
+#         year = {2023}
+#         }
+
+  - title: "ZenSVI: An open-source software for the integrated acquisition, processing and analysis of street view imagery towards scalable urban science"
+    year: 2025
+    authors:
+      - "Koichi Ito, Yihan Zhu, Mahmoud Abdelrahman, **Xiucheng Liang**, Zicheng Fan, Yujun Hou, Tianhong Zhao, Rui Ma, Kunihiko Fujiwara, Jiani Ouyang, Matias Quintana, Filip Biljecki"
+    paper_info: "Published in Computers, Environment and Urban Systems, 2025"
+    pdf_link: "https://ual.sg/publication/2025-ceus-zensvi/2025-ceus-zensvi.pdf"
+    code_link: "https://github.com/koito19960406/ZenSVI"
+    doi_link: "https://doi.org/10.1016/j.compenvurbsys.2025.102283"
+    bibtex: |
+      @article{2025_ceus_zensvi,
+        author = {Ito, Koichi and Zhu, Yihan and Abdelrahman, Mahmoud and Liang, Xiucheng and Fan, Zicheng and Hou, Yujun and Zhao, Tianhong and Ma, Rui and Fujiwara, Kunihiko and Ouyang, Jiani and Quintana, Matias and Biljecki, Filip},
+        doi = {10.1016/j.compenvurbsys.2025.102283},
+        journal = {Computers, Environment and Urban Systems},
+        pages = {102283},
+        title = {ZenSVI: An open-source software for the integrated acquisition, processing and analysis of street view imagery towards scalable urban science},
+        volume = {119},
+        year = {2025}
+        }
+
+  - title: "Quantifying seasonal bias in street view imagery for urban form assessment: A global analysis of 40 cities"
+    year: 2025
+    authors:
+      - "Tianhong Zhao, **Xiucheng Liang**, Filip Biljecki, Wei Tu, Jinzhou Cao, Xiaojiang Li, Shengao Yi"
+    paper_info: "Published in Computers, Environment and Urban Systems, 2025"
+    pdf_link: "https://ual.sg/publication/2025-ceus-svi-seasonality/2025-ceus-svi-seasonality.pdf"
+    doi_link: "https://doi.org/10.1016/j.compenvurbsys.2025.102302"
+    bibtex: |
+      @article{2025_ceus_svi_seasonality,
+        author = {Zhao, Tianhong and Liang, Xiucheng and Biljecki, Filip and Tu, Wei and Cao, Jinzhou and Li, Xiaojiang and Yi, Shengao},
+        doi = {10.1016/j.compenvurbsys.2025.102302},
+        journal = {Computers, Environment and Urban Systems},
+        pages = {102302},
+        title = {Quantifying seasonal bias in street view imagery for urban form assessment: A global analysis of 40 cities},
+        volume = {120},
+        year = {2025}
+        }
+
+  - title: "Developing the urban comfort index: Advancing liveability analytics with a multidimensional approach and explainable artificial intelligence"
+    year: 2025
+    authors:
+      - "Binyu Lei, Pengyuan Liu, **Xiucheng Liang**, Yingwei Yan, Filip Biljecki"
+    paper_info: "Published in Sustainable Cities and Society, 2025"
+    pdf_link: "https://ual.sg/publication/2025-scs-urban-comfort/2025-scs-urban-comfort.pdf"
+    doi_link: "https://doi.org/10.1016/j.scs.2024.106121"
+    bibtex: |
+      @article{2025_scs_urban_comfort,
+        author = {Lei, Binyu and Liu, Pengyuan and Liang, Xiucheng and Yan, Yingwei and Biljecki, Filip},
+        doi = {10.1016/j.scs.2024.106121},
+        journal = {Sustainable Cities and Society},
+        pages = {106121},
+        title = {Developing the urban comfort index: Advancing liveability analytics with a multidimensional approach and explainable artificial intelligence},
+        volume = {120},
+        year = {2025}
+        }
+
+  - title: "Designing effective image-based surveys for urban visual perception"
+    year: 2025
+    authors:
+      - "Youlong Gu, Matias Quintana, **Xiucheng Liang**, Koichi Ito, Winston Yap, Filip Biljecki"
+    paper_info: "Published in Landscape and Urban Planning, 2025"
+    pdf_link: "https://ual.sg/publication/2025-land-effective-surveys/2025-land-effective-surveys.pdf"
+    doi_link: "https://doi.org/10.1016/j.landurbplan.2025.105368"
+    bibtex: |
+      @article{2025_land_effective_surveys,
+        author = {Gu, Youlong and Quintana, Matias and Liang, Xiucheng and Ito, Koichi and Yap, Winston and Biljecki, Filip},
+        doi = {10.1016/j.landurbplan.2025.105368},
+        journal = {Landscape and Urban Planning},
+        pages = {105368},
+        title = {Designing effective image-based surveys for urban visual perception},
+        volume = {260},
+        year = {2025}
+        }
+
+  - title: "Decoding characteristics of building facades using street view imagery and vision-language model"
+    year: 2025
+    authors:
+        - "**Xiucheng Liang**, Sifan Cheng, Filip Biljecki"
+    paper_info: "Presented at the 19th International Conference on Computational Urban Planning and Urban Management, 2025"
+    pdf_link: "https://osf.io/abyqh/files/osfstorage/685400519a7097303ec89a95"
+    bibtex: |
+        @inproceedings{liang2025decoding,
+            title={Decoding Characteristics of Building Facades Using Street View Imagery and Vision-Language Model},
+            author={Liang, Xiucheng and Cheng, Sifan and Biljecki, Filip},
+            booktitle={19th International Conference on Computational Urban Planning and Urban Management},
+            year={2025}
+        }
 ---
-
-{{< toc >}}
-
-Here is an example of headings. You can use this heading by the following markdown rules. For example: use `#` for heading 1 and use `######` for heading 6.
-
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
-
-<hr>
-
-### Emphasis
-
-The emphasis, aka italics, with _asterisks_ or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or **underscores**.
-
-The combined emphasis with **asterisks and _underscores_**.
-
-Strike through uses two tildes. ~~Scratch this.~~
-
-<hr>
-
-### Button
-
-{{< button label="Button" link="/" style="solid" >}}
-
-<hr>
-
-### Link
-
-[I'm an inline-style link](https://www.google.com)
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links.
-<http://www.example.com> or <http://www.example.com> and sometimes
-example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.themefisher.com
-[1]: https://gethugothemes.com
-[link text itself]: https://www.getjekyllthemes.com
-
-<hr>
-
-### Paragraph
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus, facilis placeat pariatur! Voluptatem, sed harum pariatur adipisci voluptates voluptatum cumque, porro sint minima similique magni perferendis fuga! Optio vel ipsum excepturi tempore reiciendis id quidem? Vel in, doloribus debitis nesciunt fugit sequi magnam accusantium modi neque quis, vitae velit, pariatur harum autem a! Velit impedit atque maiores animi possimus asperiores natus repellendus excepturi sint architecto eligendi non, omnis nihil. Facilis, doloremque illum. Fugit optio laborum minus debitis natus illo perspiciatis corporis voluptatum rerum laboriosam.
-
-<hr>
-
-### Ordered List
-
-1. List item
-2. List item
-3. List item
-4. List item
-5. List item
-
-<hr>
-
-### Unordered List
-
-- List item
-- List item
-- List item
-- List item
-- List item
-
-<hr>
-
-### Notice
-
-{{< notice "note" >}}
-This is a simple note.
-{{< /notice >}}
-
-{{< notice "quote" >}}
-This is a simple quote.
-{{< /notice >}}
-
-{{< notice "tip" >}}
-This is a simple tip.
-{{< /notice >}}
-
-{{< notice "info" >}}
-This is a simple info.
-{{< /notice >}}
-
-{{< notice "warning" >}}
-This is a simple warning.
-{{< /notice >}}
-
-<hr>
-
-### Tab
-
-{{< tabs >}}
-{{< tab "Tab 1" >}}
-
-#### Hey There, I am a tab
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-{{< /tab >}}
-
-{{< tab "Tab 2" >}}
-
-#### I wanna talk about the assassination attempt
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-{{< /tab >}}
-
-{{< tab "Tab 3" >}}
-
-#### We know you’re dealing in stolen ore
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-
-{{< /tab >}}
-{{< /tabs >}}
-
-<hr>
-
-### Accordions
-
-{{< accordion "Why should you need to do this?" >}}
-
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur
-
-{{< /accordion >}}
-
-{{< accordion "How can I adjust Horizontal centering" >}}
-
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur
-
-{{< /accordion >}}
-
-{{< accordion "Should you use Negative margin?" >}}
-
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur
-
-{{< /accordion >}}
-
-<hr>
-
-### Code and Syntax Highlighting
-
-This is an `Inline code` sample.
-
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
-
-```python
-s = "Python syntax highlighting"
-print s
-```
-
-```c  { linenos=true }
-#include <stdio.h>
-
-int main(void)
-{
-    printf("hello, world\n");
-    return 0;
-}
-```
-
-```mermaid
-flowchart TD
-    A[Start] --> B{Is it?}
-    B -- Yes --> C[OK]
-    C --> D[Rethink]
-    D --> B
-    B -- No ----> E[End]
-```
-
-<hr>
-
-### Blockquote
-
-> Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once.
-
-<hr>
-
-### Tables
-
-| Tables        |      Are      |  Cool |
-| ------------- | :-----------: | ----: |
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      |   centered    |   $12 |
-| zebra stripes |   are neat    |    $1 |
-
-<hr>
-
-### Image
-
-{{< image src="images/image-placeholder.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
-
-<hr>
-
-### Gallery
-
-{{< gallery dir="images/gallery" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
-
-<hr>
-
-### Slider
-
-{{< slider dir="images/gallery" class="max-w-[600px] ml-0" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
-
-<hr>
-
-### Youtube video
-
-{{< youtube ResipmZmpDU >}}
-
-<hr>
-
-### Custom video
-
-{{< video src="https://www.w3schools.com/html/mov_bbb.mp4" width="100%" height="auto" autoplay="false" loop="false" muted="false" controls="true" class="rounded-lg" >}}

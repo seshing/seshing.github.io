@@ -35,6 +35,18 @@
                 {{ end }}
               </div>
             {{ end }}
+            {{ if .research_interests }}
+              <div class="research-interests mt-8">
+                <h3 class="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">Research Interests</h3>
+                <div class="flex flex-wrap justify-center gap-2">
+                  {{ range .research_interests }}
+                    <span class="px-3 py-1 bg-primary/8 text-primary dark:bg-neutral-400 dark:text-primary-light rounded-full text-sm font-medium">
+                      {{ . }}
+                    </span>
+                  {{ end }}
+                </div>
+              </div>
+            {{ end }}
           </div>
           <!-- <div class="col-12">
             {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[800px]" "DisplayXL" "800x" ) }} -->
@@ -190,7 +202,7 @@
 
   <!-- Experience Section -->
   {{ with .Params.experience }}
-    <section class="section-sm">
+    <section class="section-sm bg-gray-100 dark:bg-neutral-900">
       <div class="container">
         <div class="row justify-center">
           <div class="md:col-8 lg:col-7 text-center">
@@ -220,8 +232,8 @@
 
                   <div class="text-left">
                     <h3 class="text-xl font-semibold">{{ $item.title }}</h3>
-                    <p class="text-base text-gray-600">{{ $item.organization }}</p>
-                    <p class="text-sm text-gray-500">{{ $item.duration }}</p>
+                    <p class="text-base text-gray-500">{{ $item.organization }}</p>
+                    <p class="text-sm text-gray-400">{{ $item.duration }}</p>
                   </div>
                 </li>
               {{ end }}
@@ -240,20 +252,20 @@
       <div class="container">
         <div class="row justify-center">
           <div class="md:col-8 lg:col-7 text-center">
-            <h2 class="mb-8">Publications</h2>
+            <h2 class="mb-8">Selected Publications</h2>
             <ul class="list-none">
               {{ range $i, $item := . }}
                 {{ $citeID := printf "cite-box-%d" $i }}
                 <li class="mb-6 text-left">
                   <h3 class="text-xl font-semibold">{{ $item.title }}</h3>
 
-                  <p class="text-base text-black-500">
+                  <p class="text-base text-black-300">
                     {{ range $idx, $author := $item.authors }}
                       {{ if $idx }}, {{ end }}{{ $author | markdownify }}
                     {{ end }}
                   </p>
 
-                  <p class="text-base text-gray-500">{{ $item.paper_info }}</p>
+                  <p class="text-base text-gray-400">{{ $item.paper_info }}</p>
 
                   <div class="mt-4 flex flex-wrap gap-3">
                     {{ with $item.pdf_link }}
@@ -267,6 +279,10 @@
 
                     {{ with $item.doi_link }}
                       <a href="{{ . }}" class="btn btn-secondary" target="_blank" rel="noopener">DOI</a>
+                    {{ end }}
+
+                    {{ with $item.code_link }}
+                      <a href="{{ . }}" class="btn btn-secondary" target="_blank" rel="noopener">Code</a>
                     {{ end }}
                   </div>
 
@@ -287,6 +303,10 @@
                 </li>
               {{ end }}
             </ul>
+            <!-- General button for all publications -->
+            <div class="mt-8"></div>
+              <a href="/elements" class="btn btn-primary" target="_blank" rel="noopener">View All Publications</a>
+            </div>
           </div>
         </div>
       </div>

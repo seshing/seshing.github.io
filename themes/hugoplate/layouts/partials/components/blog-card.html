@@ -30,8 +30,14 @@
       </li>
     </ul>
   {{ end }}
-  <p class="mb-6">{{ .Summary | plainify }}</p>
+  {{ if .Params.description }}
+    <p class="mb-6">{{ .Params.description | plainify }}</p>
+  {{ else if .Summary }}
+    <p class="mb-6">{{ .Summary | plainify }}</p>
+  {{ else }}
+    <p class="mb-6">{{ .Content | plainify | truncate 150 }}</p>
+  {{ end }}
   <a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}">
-    {{ T "read_more" }}
+    Read More
   </a>
 </div>

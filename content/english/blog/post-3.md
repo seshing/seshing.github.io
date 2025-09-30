@@ -1,23 +1,42 @@
 ---
-title: "How to build an Application with modern Technology"
+title: "Video: Architectural perception and emotional well-being"
 meta_title: ""
-description: "this is meta description"
-date: 2022-04-04T05:00:00Z
-image: "/images/image-placeholder.png"
-categories: ["Software"]
-author: "John Doe"
-tags: ["software", "tailwind"]
+description: "From the comfort of historic facades to the unease of featureless high-rises, architecture plays a powerful role in shaping our emotions and moods. Here, we share our research into the psychological impact of building exteriors. "
+date: 2024-12-05
+image: "/images/blog/04-bd-perception-video/thumbnail.jpg"
+categories: ["Video"]
+author: "Xiucheng"
+tags: ["human perception"]
 draft: false
+
+publications:
+  - title: "Evaluating human perception of building exteriors using street view imagery"
+    authors:
+      - "**Xiucheng Liang**, Jiat Hwee Chang, Song Gao, Tianhong Zhao, Filip Biljecki"
+    paper_info: "Published in Building and Environment, 2024"
+    pdf_link: "https://ual.sg/publication/2024-bae-building/2024-bae-building.pdf"
+    doi_link: "https://doi.org/10.1016/j.buildenv.2024.111875"
+    bibtex: |
+      @article{liang2024evaluating,
+      title={Evaluating human perception of building exteriors using street view imagery},
+      author={Liang, Xiucheng and Chang, Jiat Hwee and Gao, Song and Zhao, Tianhong and Biljecki, Filip},
+      journal={Building and Environment},
+      volume={263},
+      pages={111875},
+      year={2024},
+      publisher={Elsevier}
+      }
+
 ---
 
-Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+### Introduction
+<div class="text-lg leading-relaxed">
+From the comfort of historic facades to the unease of featureless high-rises, architecture plays a powerful role in shaping our emotions and moods. Here, we share our research into the psychological impact of building exteriors.
+</div>
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+</br>
 
-## Creative Design
+{{< youtube "HPFjeKFT6ME&t=8s" >}}
 
-Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
-
-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+</br>
+</br>

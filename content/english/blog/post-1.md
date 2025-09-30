@@ -1,23 +1,29 @@
 ---
-title: "How to build an Application with modern Technology"
+title: "Tutorial: Generating voxel 3D city model for cities worldwide"
 meta_title: ""
-description: "this is meta description"
-date: 2022-04-04T05:00:00Z
-image: "/images/image-placeholder.png"
-categories: ["Application", "Data"]
-author: "John Doe"
-tags: ["nextjs", "tailwind"]
+description: "A tutorial on using Voxcity, a Python package for generating grid-based 3D city models and performing urban simulations. Learn how its generator module automates data integration into voxel-based city models."
+date: 2025-09-30
+image: "/images/blog/01-vocity/graphical_abstract_logo.jpg"
+categories: ["Tutorial", "Video"]
+author: "Xiucheng, Kunihiko"
+tags: ["3d", "urban simulation", "digital twin"]
 draft: false
+
 ---
 
-Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+### Introduction
+<div class="text-lg leading-relaxed">
+Voxcity is a Python package that provides a seamless solution for grid-based 3D city model generation and urban simulation for cities worldwide. VoxCity's generator module automatically downloads building heights, tree canopy heights, land cover, and terrain elevation within a specified target area, and voxelizes buildings, trees, land cover, and terrain to generate an integrated voxel city model. 
+For more details, you can visit the <a href="https://github.com/kunifujiwara/VoxCity?tab=readme-ov-file" target="_blank"><strong>VoxCity GitHub repository</strong></a>.
+</div>
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
 
-## Creative Design
 
-Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
 
-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+### Tutorial
+{{< youtube "qHusvKB07qk" >}}
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+
+<!-- > Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius! -->
+
+<!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!

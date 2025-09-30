@@ -1,23 +1,20 @@
 ---
-title: "How to build an Application with modern Technology"
+title: "Talk: Visiting Hong Kong University of Science and Technology (Guangzhou)"
 meta_title: ""
-description: "this is meta description"
-date: 2022-04-04T05:00:00Z
-image: "/images/image-placeholder.png"
-categories: ["Architecture"]
-author: "John Doe"
-tags: ["silicon", "technology"]
+description: "Traveling with Prof. Filip Biljecki to share knowledge and engage with the research group at HKUST (Guangzhou), fostering collaboration and exploring innovative ideas in urban studies and computational methods."
+date: 2024-09-11
+image: "/images/blog/05-visiting-hkustgz/presentation.jpg"
+categories: ["Talk"]
+author: "Xiucheng"
+# tags: ["conference"]
 draft: false
 ---
 
-Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+<div class="text-lg leading-relaxed">
+Traveling with Prof. Filip Biljecki to share knowledge and engage with the research group at HKUST (Guangzhou), fostering collaboration and exploring innovative ideas in urban studies and computational methods.
+</div>
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
-
-## Creative Design
-
-Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
-
-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+</div>
+<div class="flex gap-4 justify-center">
+  <img src="/images/blog/05-visiting-hkustgz/presentation.jpg" alt="Presentation" class="w-10/12">
+</div>
