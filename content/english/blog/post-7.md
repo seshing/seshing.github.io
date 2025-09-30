@@ -43,12 +43,14 @@ Firstly, a visual feature matrix is derived from street view imagery (SVI). Then
 <!-- ![Distribution of visual clusters](/images/blog/07-laup-visual-change/distribution.jpeg) -->
 <!-- ![Distribution of visual clusters](/images/blog/07-laup-visual-change/alluvium.jpeg) -->
 
+![](/images/blog/07-laup-visual-change/distribution.jpeg)
 <div class="flex gap-4 justify-center">
   <img src="/images/blog/07-laup-visual-change/distribution.jpeg" alt="example1" class="w-3/4">
 </div>
 
 </br>
 
+![](/images/blog/07-laup-visual-change/alluvium.jpeg)
 <div class="flex gap-4 justify-center">
   <img src="/images/blog/07-laup-visual-change/alluvium.jpeg" alt="example2" class="w-3/4">
 </div>

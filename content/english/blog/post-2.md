@@ -29,6 +29,9 @@ publications:
 <div class="text-xl leading-relaxed text-gray-800 dark:text-gray-200">
 I had an amazing time attending the <strong>19th International Conference on Computational Urban Planning and Urban Management (CUPUM)</strong> in London from <strong>23rd to 26th June 2024</strong>. It was such a great opportunity to connect with researchers, practitioners, and policymakers from all over the world, all passionate about using computational methods to tackle urban challenges. A big thank you to <strong>UCL</strong> for hosting this incredible event and providing such a welcoming and inspiring environment!
 </div>
+
+![](/images/blog/03-cupum/cupum.jpg)
+![](/images/blog/03-cupum/cupum_all.jpg)
 <div class="flex gap-4 justify-center">
   <img src="/images/blog/03-cupum/cupum.jpg" alt="CUPUM 2025" class="w-5/12 rounded">
   <img src="/images/blog/03-cupum/cupum_all.jpg" alt="CUPUM 2025 - Additional Image" class="w-5/12 rounded">
@@ -39,6 +42,8 @@ I had an amazing time attending the <strong>19th International Conference on Com
 During the conference, I presented my work titled <strong>"Decoding Characteristics of Building Facades Using Street View Imagery and Vision-Language Model"</strong>. It was an incredible experience to share my research and receive valuable feedback from experts in the field.
 </div>
 
+![](/images/blog/03-cupum/presentation.jpg)
+![](/images/blog/03-cupum/presentation2.jpg)
 <div class="flex gap-4 justify-center">
   <img src="/images/blog/03-cupum/presentation.jpg" alt="CUPUM 2025 - Presentation" class="w-5/12 rounded">
   <img src="/images/blog/03-cupum/presentation2.jpg" alt="CUPUM 2025 - Presentation2" class="w-5/12 rounded">
@@ -54,7 +59,7 @@ During the conference, I presented my work titled <strong>"Decoding Characterist
 Overall, it was an inspiring and motivating experience, and I’m excited to bring some of the ideas and insights I picked up into my future projects. Big thanks to everyone who made CUPUM 2024 such a memorable event!
 </div>
 
-
+![](/images/blog/03-cupum/examples.jpeg)
 </div>
 <div class="flex gap-4 justify-center">
   <img src="/images/blog/03-cupum/examples.jpeg" alt="CUPUM 2025 - Presentation" class="w-10/12">
