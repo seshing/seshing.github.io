@@ -35,7 +35,7 @@ Building appearances profoundly shape the urban visual landscape, influencing ci
 </div>
 
 <!-- <img src="/images/blog/02-bae-bd-perception/method.png" alt="Distribution of visual clusters" class="img-80"> -->
-
-<figure style="display:flex;flex-direction:column;align-items:center;">
+{{< image src="images/blog/02-bae-bd-perception/method.png" caption="" alt="alter-text" height="800" width="800" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
+<!-- <figure style="display:flex;flex-direction:column;align-items:center;">
     <img src="/images/blog/02-bae-bd-perception/method.png" alt="Research framework" style="width:80%;height:auto;">
-</figure>
+</figure> -->
