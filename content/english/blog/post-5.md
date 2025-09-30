@@ -27,13 +27,15 @@ publications:
       }
 ---
 
+<!--more-->
+
 ### Abstract
 <div class="text-xl leading-relaxed text-gray-800 dark:text-gray-200">
 Building appearances profoundly shape the urban visual landscape, influencing city images and the quality of urban life. Traditional methods for evaluating the perceptual and aesthetic qualities of building facades are often limited in scope. Despite recent studies that have sought to understand human perception of urban streetscapes, our grasp of how individuals perceive building exteriors on a broader scale and the subsequent impact on holistic street experiences, remains largely unexplored. In this study, we integrate a traditional survey-based evaluation framework with machine learning techniques to analyse human perception of over 250,000 building images from Singapore, San Francisco, and Amsterdam. Specifically, deep learning models trained on crowdsourced ratings of 1,200 building images across six perceptual attributes — complex, original, ordered, pleasing, boring, and style — achieve over 72% accuracy. This novel approach enables adaptive and comparative analyses of building appearances across regions, revealing spatial patterns in the perception of architectural exteriors and their relationships with functions, age, and location. Moreover, by applying propensity score matching to match images based on their features, we mark one of the first efforts to investigate the perceptual impacts of buildings on streetscape perceptions. The results show that streetscapes with higher levels of complex, pleasing, and historical ambience from buildings elicit more positive perceptions, whereas modern and monotonous exteriors often evoke holistic feelings of being “boring” and “depressing”. These findings offer architects and city planners valuable insights into public sentiment towards city-level building exteriors and their influence on urban identity and perception. 
 </div>
 
-<img src="/images/blog/02-bae-bd-perception/method.png" alt="Distribution of visual clusters" class="img-80">
+<!-- <img src="/images/blog/02-bae-bd-perception/method.png" alt="Distribution of visual clusters" class="img-80"> -->
 
-<!-- <figure style="display:flex;flex-direction:column;align-items:center;">
+<figure style="display:flex;flex-direction:column;align-items:center;">
     <img src="/images/blog/02-bae-bd-perception/method.png" alt="Research framework" style="width:80%;height:auto;">
-</figure> -->
+</figure>
