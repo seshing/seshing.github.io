@@ -32,10 +32,13 @@ Among the first, we integrated large language models and natural language unders
 Our findings highlight the effectiveness of SVI-based analyses in capturing urban spatial and semantic details, providing scalable insights that bridge visual and linguistic domains for a deeper understanding of the built environment.
 </div>
 
+
+![Distribution of visual clusters](/images/blog/10-cupum-bd-caption/framework.jpg)
 <figure style="display:flex;flex-direction:column;align-items:center;">
     <img src="/images/blog/10-cupum-bd-caption/framework.jpg" alt="Research framework" style="width:90%;height:auto;">
 </figure>
 
+![Distribution of visual clusters](/images/blog/10-cupum-bd-caption/examples_all.jpeg)
 <figure style="display:flex;flex-direction:column;align-items:center;">
     <img src="/images/blog/10-cupum-bd-caption/examples_all.jpeg" alt="Building clusters" style="width:90%;height:auto;">
 </figure>

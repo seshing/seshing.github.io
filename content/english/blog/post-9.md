@@ -14,4 +14,6 @@ draft: false
 Traveling with group members of Urban Analytics Lab to share knowledge and engage with Sustainable Design group at University of Cambridge.
 </div>
 
-<img src="/images/blog/09-visiting-cantab/presentation.png" alt="Distribution of visual clusters" class="img-80">
+
+![Distribution of visual clusters](/images/blog/09-visiting-cantab/presentation.png)
+<img src="/images/blog/09-visiting-cantab/presentation.png" alt="Presentation" class="img-80">
