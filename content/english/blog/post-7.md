@@ -49,12 +49,12 @@ Firstly, a visual feature matrix is derived from street view imagery (SVI). Then
 <!-- <div class="flex gap-4 justify-center">
   <img src="/images/blog/07-laup-visual-change/distribution.jpeg" alt="example1" class="w-3/4">
 </div> -->
-{{< image src="/images/blog/07-laup-visual-change/distribution.jpeg" caption="" alt="Spatio-temporal evolution visualization" height="" width="" position="center" command="fill" option="q100" class="img-80" title="Urban visual environment evolution"  webp="false" >}}
+{{< image src="/images/blog/07-laup-visual-change/distribution.jpeg" caption="" alt="" height="" width="" position="center" command="fill" option="q100" class="img-80" title="Urban visual environment evolution"  webp="false" >}}
 
 
 </br>
 
-{{< image src="images/blog/07-laup-visual-change/alluvium.jpeg" caption="" alt="Spatio-temporal evolution visualization" height="" width="" position="center" command="fill" option="q100" class="img-80" title="Urban visual environment evolution"  webp="false" >}}
+{{< image src="images/blog/07-laup-visual-change/alluvium.jpeg" caption="" alt="" height="" width="" position="center" command="fill" option="q100" class="img-80" title="Urban visual environment evolution"  webp="false" >}}
 
 <!-- ![](/images/blog/07-laup-visual-change/alluvium.jpeg) -->
 <!-- <div class="flex gap-4 justify-center">

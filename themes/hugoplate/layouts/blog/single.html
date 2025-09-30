@@ -245,6 +245,11 @@
     max-width: 80% !important;
   }
   
+  .img-40, .img-40 img, .img-40 figure, .img-40 figure img {
+    width: 40% !important;
+    max-width: 40% !important;
+  }
+  
   .img-45, .img-45 img, .img-45 figure, .img-45 figure img {
     width: 45% !important;
     max-width: 45% !important;
@@ -266,8 +271,8 @@
   }
   
   /* Support for wrapper divs around markdown images and shortcodes */
-  .img-80 p, .img-45 p, .img-60 p, .img-90 p, .img-full p,
-  .img-80 figure, .img-45 figure, .img-60 figure, .img-90 figure, .img-full figure {
+  .img-80 p, .img-45 p, .img-40 p, .img-60 p, .img-90 p, .img-full p,
+  .img-80 figure, .img-45 figure, .img-40 figure, .img-60 figure, .img-90 figure, .img-full figure {
     text-align: center;
     margin: 1rem auto;
   }
@@ -282,16 +287,31 @@
     margin: 0 auto;
   }
   
+  /* Side-by-side image layouts */
+  .img-row {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 1.5rem 0;
+  }
+  
+  .img-row figure {
+    flex: 1;
+    margin: 0;
+  }
+  
   /* Responsive adjustments */
   @media (max-width: 768px) {
-    .img-80, .img-60, .img-45 {
+    .img-80, .img-60, .img-45, .img-40 {
       width: 90% !important;
       max-width: 90% !important;
     }
   }
   
   @media (max-width: 480px) {
-    .img-80, .img-60, .img-45, .img-90 {
+    .img-80, .img-60, .img-45, .img-40, .img-90 {
       width: 100% !important;
       max-width: 100% !important;
     }

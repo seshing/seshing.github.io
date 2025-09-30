@@ -36,11 +36,13 @@ Our findings highlight the effectiveness of SVI-based analyses in capturing urba
 
 
 <!-- ![](/images/blog/10-cupum-bd-caption/framework.jpg) -->
-<figure style="display:flex;flex-direction:column;align-items:center;">
+<!-- <figure style="display:flex;flex-direction:column;align-items:center;">
     <img src="/images/blog/10-cupum-bd-caption/framework.jpg" alt="Research framework" style="width:90%;height:auto;">
-</figure>
+</figure> -->
+{{< image src="images/blog/10-cupum-bd-caption/framework.jpg" caption="" alt="" height="" width="" position="center" command="fill" option="q100" class="img-80" title=""  webp="false" >}}
 
 <!-- ![](/images/blog/10-cupum-bd-caption/examples_all.jpeg) -->
-<figure style="display:flex;flex-direction:column;align-items:center;">
+<!-- <figure style="display:flex;flex-direction:column;align-items:center;">
     <img src="/images/blog/10-cupum-bd-caption/examples_all.jpeg" alt="Building clusters" style="width:90%;height:auto;">
-</figure>
+</figure> -->
+{{< image src="images/blog/10-cupum-bd-caption/examples_all.jpeg" caption="" alt="" height="" width="" position="center" command="fill" option="q100" class="img-80" title=""  webp="false" >}}

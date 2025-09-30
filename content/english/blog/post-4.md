@@ -15,6 +15,7 @@ Traveling with Prof. Filip Biljecki to share knowledge and engage with the resea
 </div>
 
 </div>
-<div class="flex gap-4 justify-center">
+<!-- <div class="flex gap-4 justify-center">
   <img src="/images/blog/05-visiting-hkustgz/presentation.jpg" alt="Presentation" class="w-10/12">
-</div>
+</div> -->
+{{< image src="images/blog/05-visiting-hkustgz/presentation.jpg" caption="" alt="" height="" width="" position="center" command="fill" option="q100" class="img-80" title=""  webp="false" >}}

@@ -32,9 +32,14 @@ I had an amazing time attending the <strong>19th International Conference on Com
 
 <!-- ![](/images/blog/03-cupum/cupum.jpg)
 ![](/images/blog/03-cupum/cupum_all.jpg) -->
-<div class="flex gap-4 justify-center">
+<!-- <div class="flex gap-4 justify-center">
   <img src="/images/blog/03-cupum/cupum.jpg" alt="CUPUM 2025" class="w-5/12 rounded">
   <img src="/images/blog/03-cupum/cupum_all.jpg" alt="CUPUM 2025 - Additional Image" class="w-5/12 rounded">
+</div> -->
+
+<div class="flex gap-4 justify-center flex-wrap">
+{{< image src="images/blog/03-cupum/cupum.jpg" caption="" alt="" height="" width="" position="center" command="fill" option="q100" class="img-45" title="Conference Presentation"  webp="false" >}}
+{{< image src="images/blog/03-cupum/cupum_all.jpg" caption="" alt="" height="" width="" position="center" command="fill" option="q100" class="img-45" title="Conference Presentation 2"  webp="false" >}}
 </div>
 
 ## Presentation
@@ -44,9 +49,14 @@ During the conference, I presented my work titled <strong>"Decoding Characterist
 
 <!-- ![](/images/blog/03-cupum/presentation.jpg)
 ![](/images/blog/03-cupum/presentation2.jpg) -->
-<div class="flex gap-4 justify-center">
+<!-- <div class="flex gap-4 justify-center">
   <img src="/images/blog/03-cupum/presentation.jpg" alt="CUPUM 2025 - Presentation" class="w-5/12 rounded">
   <img src="/images/blog/03-cupum/presentation2.jpg" alt="CUPUM 2025 - Presentation2" class="w-5/12 rounded">
+</div> -->
+
+<div class="flex gap-4 justify-center flex-wrap">
+{{< image src="images/blog/03-cupum/presentation.jpg" caption="" alt="CUPUM 2025 Presentation" height="" width="" position="center" command="fill" option="q100" class="img-45" title="Conference Presentation"  webp="false" >}}
+{{< image src="images/blog/03-cupum/presentation2.jpg" caption="" alt="CUPUM 2025 Presentation 2" height="" width="" position="center" command="fill" option="q100" class="img-45" title="Conference Presentation 2"  webp="false" >}}
 </div>
 
 <div class="text-xl leading-relaxed text-gray-800 dark:text-gray-200">
@@ -60,7 +70,7 @@ Overall, it was an inspiring and motivating experience, and I’m excited to bri
 </div>
 
 <!-- ![](/images/blog/03-cupum/examples.jpeg) -->
-</div>
+<!-- </div>
 <div class="flex gap-4 justify-center">
   <img src="/images/blog/03-cupum/examples.jpeg" alt="CUPUM 2025 - Presentation" class="w-10/12">
-</div>
+</div> -->

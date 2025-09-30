@@ -25,7 +25,9 @@ For more details, you can visit the <a href="https://github.com/kunifujiwara/Vox
 
 ### Examples
 <!-- ![](/images/blog/01-voxcity/3d_city_model_examples.jpg) -->
-<figure style="display:flex;flex-direction:column;align-items:center;">
+<!-- <figure style="display:flex;flex-direction:column;align-items:center;">
     <img src="/images/blog/01-voxcity/3d_city_model_examples.jpg" alt="3D city model examples" style="width:80%;height:auto;">
     <figcaption style="text-align:center;font-size:0.875rem;font-style:italic;margin-top:0.5rem;">Figure by Kunihiko F.</figcaption>
-</figure>
+</figure> -->
+
+{{< image src="images/blog/01-voxcity/3d_city_model_examples.jpg" caption="Figure by Kunihiko F." alt="CUPUM 2025 Presentation 2" height="" width="" position="center" command="fill" option="q100" class="img-80" title="Conference Presentation 2"  webp="false" >}}
