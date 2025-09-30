@@ -10,7 +10,7 @@ author: "Xiucheng"
 draft: false
 ---
 
-<div class="text-lg leading-relaxed">
+<div class="text-xl leading-relaxed text-gray-800 dark:text-gray-200">
 Traveling with Prof. Filip Biljecki to share knowledge and engage with the research group at HKUST (Guangzhou), fostering collaboration and exploring innovative ideas in urban studies and computational methods.
 </div>
 

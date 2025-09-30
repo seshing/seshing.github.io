@@ -26,7 +26,7 @@ publications:
 
 ## CUPUM 2025 (UCL)
 
-<div class="text-xl leading-relaxed">
+<div class="text-xl leading-relaxed text-gray-800 dark:text-gray-200">
 I had an amazing time attending the <strong>19th International Conference on Computational Urban Planning and Urban Management (CUPUM)</strong> in London from <strong>23rd to 26th June 2024</strong>. It was such a great opportunity to connect with researchers, practitioners, and policymakers from all over the world, all passionate about using computational methods to tackle urban challenges. A big thank you to <strong>UCL</strong> for hosting this incredible event and providing such a welcoming and inspiring environment!
 </div>
 <div class="flex gap-4 justify-center">
@@ -35,7 +35,7 @@ I had an amazing time attending the <strong>19th International Conference on Com
 </div>
 
 ## Presentation
-<div class="text-xl leading-relaxed">
+<div class="text-xl leading-relaxed text-gray-800 dark:text-gray-200">
 During the conference, I presented my work titled <strong>"Decoding Characteristics of Building Facades Using Street View Imagery and Vision-Language Model"</strong>. It was an incredible experience to share my research and receive valuable feedback from experts in the field.
 </div>
 
@@ -44,7 +44,7 @@ During the conference, I presented my work titled <strong>"Decoding Characterist
   <img src="/images/blog/03-cupum/presentation2.jpg" alt="CUPUM 2025 - Presentation2" class="w-5/12 rounded">
 </div>
 
-<div class="text-xl leading-relaxed">
+<div class="text-xl leading-relaxed text-gray-800 dark:text-gray-200">
 During the conference, I presented my work titled <strong>"Decoding Characteristics of Building Facades Using Street View Imagery and Vision-Language Model"</strong>. This study explores a novel approach to encoding building facade characteristics in urban areas using street view imagery and vision-language models. By analyzing 48,752 building images in Hong Kong, we identified eight building clusters aligned with geometric footprints city-wide. Our findings demonstrate the potential of scalable SVI-based analyses to bridge visual and linguistic domains, offering deeper insights into the built environment. If you are interested in the work, please check the proceeding <a href="https://github.com/kunifujiwara/VoxCity?tab=readme-ov-file" target="_blank"><strong>HERE</strong></a>. 🙌🏻
 </div>
 

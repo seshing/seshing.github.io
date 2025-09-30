@@ -12,7 +12,7 @@ draft: false
 ---
 
 ### Introduction
-<div class="text-lg leading-relaxed">
+<div class="text-xl leading-relaxed text-gray-800 dark:text-gray-200">
 Voxcity is a Python package that provides a seamless solution for grid-based 3D city model generation and urban simulation for cities worldwide. VoxCity's generator module automatically downloads building heights, tree canopy heights, land cover, and terrain elevation within a specified target area, and voxelizes buildings, trees, land cover, and terrain to generate an integrated voxel city model. 
 For more details, you can visit the <a href="https://github.com/kunifujiwara/VoxCity?tab=readme-ov-file" target="_blank"><strong>VoxCity GitHub repository</strong></a>.
 </div>

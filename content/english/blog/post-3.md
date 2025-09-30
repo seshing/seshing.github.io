@@ -30,7 +30,7 @@ publications:
 ---
 
 ### Introduction
-<div class="text-lg leading-relaxed">
+<div class="text-xl leading-relaxed text-gray-800 dark:text-gray-200">
 From the comfort of historic facades to the unease of featureless high-rises, architecture plays a powerful role in shaping our emotions and moods. Here, we share our research into the psychological impact of building exteriors.
 </div>
 
