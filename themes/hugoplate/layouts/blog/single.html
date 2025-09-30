@@ -227,4 +227,62 @@
     }
     </style>
   {{ end }}
+
+  <!-- Global Image Width Control Styles -->
+  <style>
+  /* Image width control classes */
+  .content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+  }
+  
+  /* Width control classes for img tags */
+  .img-80, .img-80 img {
+    width: 80% !important;
+    max-width: 80% !important;
+  }
+  
+  .img-45, .img-45 img {
+    width: 45% !important;
+    max-width: 45% !important;
+  }
+  
+  .img-60, .img-60 img {
+    width: 60% !important;
+    max-width: 60% !important;
+  }
+  
+  .img-90, .img-90 img {
+    width: 90% !important;
+    max-width: 90% !important;
+  }
+  
+  .img-full, .img-full img {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  
+  /* Support for wrapper divs around markdown images */
+  .img-80 p, .img-45 p, .img-60 p, .img-90 p, .img-full p {
+    text-align: center;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .img-80, .img-60, .img-45 {
+      width: 90% !important;
+      max-width: 90% !important;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .img-80, .img-60, .img-45, .img-90 {
+      width: 100% !important;
+      max-width: 100% !important;
+    }
+  }
+  </style>
 {{ end }}
