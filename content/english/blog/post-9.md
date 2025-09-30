@@ -1,0 +1,20 @@
+---
+title: "Talk: Visiting University of Cambridge"
+meta_title: ""
+description: "Traveling with group members of Urban Analytics Lab to share knowledge and engage with Sustainable Design group at University of Cambridge."
+date: 2025-06-27
+image: "/images/blog/09-visiting-cantab/group-photo.jpg"
+categories: ["Talk"]
+author: "Xiucheng"
+# tags: ["conference"]
+draft: false
+---
+
+<div class="text-lg leading-relaxed">
+Traveling with group members of Urban Analytics Lab to share knowledge and engage with Sustainable Design group at University of Cambridge.
+</div>
+
+</div>
+<div class="flex gap-4 justify-center">
+  <img src="/images/blog/09-visiting-cantab/group-photo.jpg" alt="Presentation" class="w-10/12">
+</div>

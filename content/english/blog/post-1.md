@@ -3,7 +3,7 @@ title: "Tutorial: Generating voxel 3D city model for cities worldwide"
 meta_title: ""
 description: "A tutorial on using Voxcity, a Python package for generating grid-based 3D city models and performing urban simulations. Learn how its generator module automates data integration into voxel-based city models."
 date: 2025-09-30
-image: "/images/blog/01-vocity/graphical_abstract_logo.jpg"
+image: "/images/blog/01-voxcity/graphical_abstract_logo.jpg"
 categories: ["Tutorial", "Video"]
 author: "Xiucheng, Kunihiko"
 tags: ["3d", "urban simulation", "digital twin"]
@@ -23,7 +23,8 @@ For more details, you can visit the <a href="https://github.com/kunifujiwara/Vox
 ### Tutorial
 {{< youtube "qHusvKB07qk" >}}
 
-
-<!-- > Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius! -->
-
-<!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+### Examples
+<figure style="display:flex;flex-direction:column;align-items:center;">
+    <img src="/images/blog/01-voxcity/3d_city_model_examples.jpg" alt="3D city model examples" style="width:80%;height:auto;">
+    <figcaption style="text-align:center;font-size:0.875rem;font-style:italic;margin-top:0.5rem;">Figure by Kunihiko F.</figcaption>
+</figure>
