@@ -15,5 +15,5 @@ Traveling with group members of Urban Analytics Lab to share knowledge and engag
 </div>
 
 
-![Distribution of visual clusters](/images/blog/09-visiting-cantab/presentation.png)
+<!-- ![Distribution of visual clusters](/images/blog/09-visiting-cantab/presentation.png) -->
 <img src="/images/blog/09-visiting-cantab/presentation.png" alt="Presentation" class="img-80">
