@@ -36,7 +36,7 @@ From the comfort of historic facades to the unease of featureless high-rises, ar
 
 </br>
 
-{{< youtube "HPFjeKFT6ME&t=8s" >}}
+{{< youtube "HPFjeKFT6ME" >}}
 
 </br>
 </br>
