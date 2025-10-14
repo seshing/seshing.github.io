@@ -4,6 +4,7 @@ meta_title: "Publications by Xiucheng Liang"
 description: "Complete list of publications with sorting and filtering options"
 draft: false
 layout: "elements"
+type: "pages"
 
 publications:
   - title: "Revealing spatio-temporal evolution of urban visual environments with street view imagery"
