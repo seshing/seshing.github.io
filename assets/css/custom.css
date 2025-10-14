@@ -6,7 +6,7 @@
     display: block;
     margin: 0 auto; /* Centers the image horizontally */
     text-align: center; /* Ensures alignment in parent container */
-    transform: translateX(-10px); /* Moves the image slightly to the left */
+    transform: translateX(-2px); /* Moves the image slightly to the right */
 }
 
 .social-links i {
@@ -17,4 +17,40 @@
 .navbar-nav {
     justify-content: center;
     transform: translateX(120px); /* Moves the image slightly to the left */
+}
+
+/* Video Section Styles */
+.video-card {
+    transition: all 0.3s ease;
+}
+
+.video-card:hover {
+    transform: translateY(-4px);
+}
+
+.video-thumbnail {
+    position: relative;
+    overflow: hidden;
+}
+
+.video-play-overlay {
+    background: linear-gradient(45deg, rgba(0,0,0,0.3), rgba(0,0,0,0.5));
+}
+
+.video-platform-badge {
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+/* Responsive grid for videos */
+@media (max-width: 768px) {
+    .video-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .video-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

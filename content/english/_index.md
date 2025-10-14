@@ -9,6 +9,10 @@ banner:
     enable: false
     label: "Get Started For Free"
     link: "https://github.com/zeon-studio/hugoplate"
+  cv_button:
+    enable: true
+    label: "Download CV"
+    link: "/files/cv_xiucheng.pdf"
   social_links:
     - platform: "LinkedIn"
       icon: "fab fa-linkedin"
@@ -33,6 +37,27 @@ banner:
     - "Multi-modal Geospatial Data Integration"
     - "Street View Imagery"
     - "Urban Sustainability"
+
+videos:
+  - title: "Architectural Perception and Emotional Well-being"
+    year: "2024"
+    platform: "YouTube"
+    link: "https://www.youtube.com/watch?v=HPFjeKFT6ME"
+    thumbnail: "/images/blog/04-bd-perception-video/thumbnail.jpg"
+    description: "Exploring the relationship between architectural design and human emotional well-being through perception studies."
+  - title: "Tutorial: Generating voxel 3D city model for cities worldwide"
+    year: "2025"
+    platform: "YouTube"
+    link: "https://www.youtube.com/watch?v=qHusvKB07qk&t=3s"
+    thumbnail: "/images/video-thumbnails/voxcity.jpg"
+    description: "Step-by-step tutorial on creating 3D voxel city models for urban analysis and visualization."
+  - title: "Presentation: 11th GISChat, the Application of Human Perception in Urban Studies"
+    year: "2024"
+    platform: "Bilibili"
+    link: "https://www.bilibili.com/video/BV1fzsQeeESK/?spm_id_from=333.1387.homepage.video_card.click&vd_source=4548411f54d46d7e063d3f5d34a1aa94"
+    thumbnail: "/images/video-thumbnails/gischat2024.png"
+    description: "Presentation on applying human perception methodologies in urban studies research (in Chinese)."
+    language: "Chinese"
 
 publications:
   - title: "Revealing spatio-temporal evolution of urban visual environments with street view imagery"
