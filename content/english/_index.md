@@ -12,7 +12,7 @@ banner:
   cv_button:
     enable: true
     label: "Download CV"
-    link: "/files/cv_xiucheng.pdf"
+    link: "/files/Xiucheng_Liang_CV.pdf"
   social_links:
     - platform: "LinkedIn"
       icon: "fab fa-linkedin"

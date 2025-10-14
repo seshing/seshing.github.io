@@ -55,8 +55,9 @@
                 <div class="mt-6 text-center">
                   <a
                     class="btn btn-outline-primary"
-                    href="{{ .link | relURL }}"
-                    target="_blank" rel="noopener">
+                    href="{{ .link | absURL }}"
+                    target="_blank" rel="noopener"
+                    download>
                     <i class="fas fa-download mr-2"></i>
                     {{ .label }}
                   </a>
@@ -386,9 +387,8 @@
               {{ end }}
             </ul>
             <!-- General button for all publications -->
-            <div class="mt-8">
-              <a href="{{ "/elements" | relURL }}" class="btn btn-primary">View All Publications</a>
-            </div>
+            <div class="mt-8"></div>
+              <a href="/elements" class="btn btn-primary" target="_blank" rel="noopener">View All Publications</a>
             </div>
           </div>
         </div>
