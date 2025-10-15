@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "Hi, this is Xiucheng 👋🏻"
-  content: "I am currently a PhD candidate at the Urban Analytics Lab, NUS. My research centers on building-level investigations of urban environments, integrating computer vision, graph neural networks, and multi-modal geospatial data to predict building attributes and uncover patterns of urban form and sustainability."
+  content: "I am currently a PhD candidate at the [<u>Urban Analytics Lab</u>](https://ual.sg), [<u>NUS</u>]https://www.nus.edu.sg/). My research centers on building-level investigations of urban environments, integrating computer vision, graph neural networks, and multi-modal geospatial data to predict building attributes and uncover patterns of urban form and sustainability."
   image_class: "profile-img" # Add class for circular styling
   image: "/images/profile_img.jpg"
   button:
@@ -58,7 +58,7 @@ videos:
   #   thumbnail: "/images/video-thumbnails/gischat2024.png"
   #   description: "Presentation on applying human perception methodologies in urban studies research (in Chinese)."
   #   language: "Chinese"
-  - title: "Presentation: Climate Change AI Seminar: Urban Microclimate and Building Analysis"
+  - title: "Climate Change AI Seminar: Urban Microclimate and Building Analysis"
     year: "2024"
     platform: "YouTube"
     link: "https://www.youtube.com/watch?v=OH7QZA3sENw&list=LL&index=2&t=1989s"
@@ -160,24 +160,28 @@ experience:
   - logo: 
       light: "/images/logos/ual-logo.png"
       dark: "/images/logos/ual-logo-dark.png"
+    url: "https://ual.sg"
     title: "PhD Researcher  - CGPA: 4.93/5"
     organization: "Urban Analytics Lab, National University of Singapore"
     duration: "August 2023 – Present"
   - logo: 
       light: "/images/logos/ual-logo.png"
       dark: "/images/logos/ual-logo-dark.png"
+    url: "https://ual.sg"
     title: "Research Assistant"
     organization: "Urban Analytics Lab, National University of Singapore"
     duration: "November 2021 – May 2022"
   - logo: 
       light: "/images/logos/nus-logo.png"
       dark: "/images/logos/nus-logo-dark.png"
+    url: "https://www.nus.edu.sg"
     title: "Master of Urban Planning - CGPA: 4.78/5"
     organization: "Department of Architecture, National University of Singapore"
     duration: "June 2021 – March 2023"
   - logo: 
       light: "/images/logos/szu-logo.png"
       dark: "/images/logos/szu-logo-dark.png"
+    url: "https://en.szu.edu.cn/"
     title: "Bachelor of Engineering in Urban and Rural Planning - CGPA: 3.45/4"
     organization: "School of Architecture and Urban Planning, Shenzhen University"
     duration: "September 2014 – June 2019"

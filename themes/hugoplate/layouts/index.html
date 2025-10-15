@@ -229,12 +229,19 @@
                 {{ $item := . }}
                 <li class="flex items-center justify-center mb-6">
 
+                  {{/* Logo wrapper - make clickable if URL provided */}}
+                  {{ if $item.url }}
+                    <a href="{{ $item.url }}" target="_blank" rel="noopener" class="flex-shrink-0 mr-5 hover:opacity-75 transition-opacity duration-200">
+                  {{ else }}
+                    <div class="flex-shrink-0 mr-5">
+                  {{ end }}
+
                   {{/* Light logo (default in light mode) */}}
                   {{ with (index $item.logo "light") }}
                     {{ partial "image" (dict
                       "Src"   .
                       "Alt"   (printf "%s Logo" $item.title)
-                      "Class" "w-12 h-12 mr-5 block dark:hidden"
+                      "Class" "w-12 h-12 block dark:hidden"
                     ) }}
                   {{ end }}
 
@@ -243,8 +250,15 @@
                     {{ partial "image" (dict
                       "Src"   .
                       "Alt"   (printf "%s Dark Logo" $item.title)
-                      "Class" "w-12 h-12 mr-5 hidden dark:block"
+                      "Class" "w-12 h-12 hidden dark:block"
                     ) }}
+                  {{ end }}
+
+                  {{/* Close logo wrapper */}}
+                  {{ if $item.url }}
+                    </a>
+                  {{ else }}
+                    </div>
                   {{ end }}
 
                   <div class="text-left">
