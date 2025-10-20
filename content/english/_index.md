@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "Hi, this is Xiucheng 👋🏻"
-  content: "I am currently a PhD candidate at the [<u>Urban Analytics Lab</u>](https://ual.sg), [<u>NUS</u>]https://www.nus.edu.sg/). My research centers on building-level investigations of urban environments, integrating computer vision, graph neural networks, and multi-modal geospatial data to predict building attributes and uncover patterns of urban form and sustainability."
+  content: "I am currently a PhD candidate at the [<u>Urban Analytics Lab</u>](https://ual.sg), [<u>NUS</u>](https://www.nus.edu.sg/). My research centers on building-level investigations of urban environments, integrating computer vision, graph neural networks, and multi-modal geospatial data to predict building attributes and uncover patterns of urban form and sustainability."
   image_class: "profile-img" # Add class for circular styling
   image: "/images/profile_img.jpg"
   button:
