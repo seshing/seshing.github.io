@@ -10,8 +10,8 @@
           <div class="flex gap-2 items-center">
             <label class="font-semibold">Sort by:</label>
             <select id="sortBy" class="w-62 border border-gray-300 dark:border-gray-600 rounded px-3 py-2 bg-white dark:bg-gray-800">
-              <option value="year-desc">Year (Newest First)</option>
-              <option value="year-asc">Year (Oldest First)</option>
+              <option value="date-desc">Date (Newest First)</option>
+              <option value="date-asc">Date (Oldest First)</option>
               <option value="title">Title (A-Z)</option>
             </select>
           </div>
@@ -38,6 +38,7 @@
             
             <div class="publication-item mb-8 p-6 border border-gray-200 dark:border-gray-700 rounded-lg bg-white dark:bg-neutral-900 {{ if $isFirstAuthor }}first-author{{ end }}" 
                  data-year="{{ $pub.year }}" 
+                 data-month="{{ with $pub.month }}{{ . }}{{ end }}"
                  data-title="{{ $pub.title }}" 
                  data-first-author="{{ $isFirstAuthor }}">
               
@@ -126,6 +127,15 @@
     document.getElementById('totalPubs').textContent = visibleItems.length;
     document.getElementById('firstAuthorPubs').textContent = firstAuthorVisible.length;
   }
+
+  function parseMonth(val) {
+    if (!val) return 0;
+    const n = parseInt(val, 10);
+    if (!isNaN(n)) return Math.max(0, Math.min(12, n));
+    const m = String(val).toLowerCase().trim();
+    const map = { jan:1, january:1, feb:2, february:2, mar:3, march:3, apr:4, april:4, may:5, jun:6, june:6, jul:7, july:7, aug:8, august:8, sep:9, sept:9, september:9, oct:10, october:10, nov:11, november:11, dec:12, december:12 };
+    return map[m] || 0;
+  }
   
   function sortAndFilter() {
     const sortBy = document.getElementById('sortBy').value;
@@ -146,11 +156,19 @@
     const visibleItems = items.filter(item => item.style.display !== 'none');
     
     visibleItems.sort((a, b) => {
+      const ya = parseInt(a.dataset.year, 10) || 0;
+      const yb = parseInt(b.dataset.year, 10) || 0;
+      const ma = parseMonth(a.dataset.month);
+      const mb = parseMonth(b.dataset.month);
       switch(sortBy) {
-        case 'year-desc':
-          return parseInt(b.dataset.year) - parseInt(a.dataset.year);
-        case 'year-asc':
-          return parseInt(a.dataset.year) - parseInt(b.dataset.year);
+        case 'date-desc':
+        case 'year-desc': // backward compatibility
+          if (yb !== ya) return yb - ya;
+          return mb - ma;
+        case 'date-asc':
+        case 'year-asc': // backward compatibility
+          if (ya !== yb) return ya - yb;
+          return ma - mb;
         case 'title':
           return a.dataset.title.localeCompare(b.dataset.title);
         default:

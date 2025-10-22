@@ -8,6 +8,7 @@ layout: "elements"
 publications:
   - title: "Revealing spatio-temporal evolution of urban visual environments with street view imagery"
     year: 2023
+    month: 9
     authors:
       - "**Xiucheng Liang**, Tianhong Zhao, Filip Biljecki"
     paper_info: "Published in Landscape and Urban Planning, 2023"
@@ -26,6 +27,7 @@ publications:
 
   - title: "Evaluating human perception of building exteriors using street view imagery"
     year: 2024
+    month: 9
     authors:
       - "**Xiucheng Liang**, Jiat Hwee Chang, Song Gao, Tianhong Zhao, Filip Biljecki"
     paper_info: "Published in Building and Environment, 2024"
@@ -44,6 +46,7 @@ publications:
 
   - title: "OpenFACADES: an open framework for architectural caption and attribute data enrichment via street view imagery"
     year: 2025
+    month: 11
     authors:
       - "**Xiucheng Liang**, Jinheng Xie, Tianhong Zhao, Rudi Stouffs, Filip Biljecki"
     paper_info: "arXiv preprint arXiv:2504.02866"
@@ -59,6 +62,7 @@ publications:
 
   - title: "Sensing urban soundscapes from street view imagery"
     year: 2023
+    month: 1
     authors:
       - "Tianhong Zhao, **Xiucheng Liang**, Wei Tu, Zhengdong Huang, Filip Biljecki"
     paper_info: "Published in Computers, Environment and Urban Systems, 2023"
@@ -78,6 +82,7 @@ publications:
 
   - title: "Sensitivity of measuring the urban form and greenery using street-level imagery: A comparative study of approaches and visual perspectives"
     year: 2023
+    month: 8
     authors:
       - "Filip Biljecki, Tianhong Zhao, **Xiucheng Liang**, Yujun Hou"
     paper_info: "Published in International Journal of Applied Earth Observation and Geoinformation, 2023"
@@ -116,6 +121,7 @@ publications:
 
   - title: "ZenSVI: An open-source software for the integrated acquisition, processing and analysis of street view imagery towards scalable urban science"
     year: 2025
+    month: 7
     authors:
       - "Koichi Ito, Yihan Zhu, Mahmoud Abdelrahman, **Xiucheng Liang**, Zicheng Fan, Yujun Hou, Tianhong Zhao, Rui Ma, Kunihiko Fujiwara, Jiani Ouyang, Matias Quintana, Filip Biljecki"
     paper_info: "Published in Computers, Environment and Urban Systems, 2025"
@@ -135,6 +141,7 @@ publications:
 
   - title: "Quantifying seasonal bias in street view imagery for urban form assessment: A global analysis of 40 cities"
     year: 2025
+    month: 9
     authors:
       - "Tianhong Zhao, **Xiucheng Liang**, Filip Biljecki, Wei Tu, Jinzhou Cao, Xiaojiang Li, Shengao Yi"
     paper_info: "Published in Computers, Environment and Urban Systems, 2025"
@@ -153,6 +160,7 @@ publications:
 
   - title: "Developing the urban comfort index: Advancing liveability analytics with a multidimensional approach and explainable artificial intelligence"
     year: 2025
+    month: 2
     authors:
       - "Binyu Lei, Pengyuan Liu, **Xiucheng Liang**, Yingwei Yan, Filip Biljecki"
     paper_info: "Published in Sustainable Cities and Society, 2025"
@@ -171,6 +179,7 @@ publications:
 
   - title: "Designing effective image-based surveys for urban visual perception"
     year: 2025
+    month: 8
     authors:
       - "Youlong Gu, Matias Quintana, **Xiucheng Liang**, Koichi Ito, Winston Yap, Filip Biljecki"
     paper_info: "Published in Landscape and Urban Planning, 2025"
@@ -189,6 +198,7 @@ publications:
 
   - title: "Decoding characteristics of building facades using street view imagery and vision-language model"
     year: 2025
+    month: 7
     authors:
         - "**Xiucheng Liang**, Sifan Cheng, Filip Biljecki"
     paper_info: "Presented at the 19th International Conference on Computational Urban Planning and Urban Management, 2025"
@@ -200,4 +210,21 @@ publications:
             booktitle={19th International Conference on Computational Urban Planning and Urban Management},
             year={2025}
         }
+
+
+  - title: "Global urban visual perception varies across demographics and personalities"
+    year: 2025
+    month: 10
+    authors:
+      - "Matias Quintana, Youlong Gu, **Xiucheng Liang**, Yujun Hou, Koichi Ito, Yihan Zhu, Mahmoud Abdelrahman, Filip Biljecki"
+    paper_info: "Published in Nature Cities, 2025"
+    pdf_link: "https://www.researchgate.net/profile/Matias-Quintana/publication/391878067_Global_urban_visual_perception_varies_across_demographics_and_personalities/links/6879b2f67d202419e84d25d7/Global-urban-visual-perception-varies-across-demographics-and-personalities.pdf"
+    doi_link: "https://doi.org/10.1038/s44284-025-00330-x"
+    bibtex: |
+      @article{quintana2025global,
+        title={Global urban visual perception varies across demographics and personalities},
+        author={Quintana, Matias and Gu, Youlong and Liang, Xiucheng and Hou, Yujun and Ito, Koichi and Zhu, Yihan and Abdelrahman, Mahmoud and Biljecki, Filip},
+        journal={Nature Cities},
+        year={2025}
+      }
 ---
