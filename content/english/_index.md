@@ -109,16 +109,22 @@ publications:
       - "**Xiucheng Liang**, Jinheng Xie, Tianhong Zhao, Rudi Stouffs, Filip Biljecki"
     paper_info: "arXiv preprint arXiv:2504.02866"
     pdf_link: "https://arxiv.org/pdf/2504.02866"
+    doi_link: "https://doi.org/10.1016/j.isprsjprs.2025.10.014"
     code_link: "https://github.com/seshing/OpenFACADES"
     # cite_link: "https://example.com/citation-multi-modal-geospatial"s
     # doi_link: "https://doi.org/10.1234/geospatial.2021.003"
     bibtex: |
       @article{liang2025openfacades,
-      title={OpenFACADES: An Open Framework for Architectural Caption and Attribute Data Enrichment via Street View Imagery},
-      author={Liang, Xiucheng and Xie, Jinheng and Zhao, Tianhong and Stouffs, Rudi and Biljecki, Filip},
-      journal={arXiv preprint arXiv:2504.02866},
-      year={2025}
+      title = {OpenFACADES: An open framework for architectural caption and attribute data enrichment via street view imagery},
+      author = {Liang, Xiucheng and Xie, Jinheng and Zhao, Tianhong and Stouffs, Rudi and Biljecki, Filip},
+      year = 2025,
+      month = dec,
+      journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
+      volume = {230},
+      pages = {918--942},
+      issn = {0924-2716}
       }
+
 
   - title: "Sensing urban soundscapes from street view imagery"
     authors:
