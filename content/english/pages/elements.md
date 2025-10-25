@@ -51,7 +51,7 @@ publications:
       - "**Xiucheng Liang**, Jinheng Xie, Tianhong Zhao, Rudi Stouffs, Filip Biljecki"
     paper_info: "Published in ISPRS Journal of Photogrammetry and Remote Sensing"
     pdf_link: "https://arxiv.org/pdf/2504.02866"
-    doi_link: " https://doi.org/10.1016/j.isprsjprs.2025.10.014"
+    doi_link: "https://doi.org/10.1016/j.isprsjprs.2025.10.014"
     code_link: "https://github.com/seshing/OpenFACADES"
     bibtex: |
       @article{liang2025openfacades,
