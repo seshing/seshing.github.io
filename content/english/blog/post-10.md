@@ -27,7 +27,7 @@ publications:
 <!--more-->
 
 ### Abstract
-<div class="text-xl leading-relaxed text-gray-800 dark:text-gray-200">
+<div class="text-2xl leading-relaxed font-light text-gray-800 dark:text-gray-200">
 Acquiring and analysing the characteristics of buildings in cities has long been of interest, while comprehensive evaluation at scale remains challenging.
 This study investigates a novel approach to encoding the characteristics of building facades in urban areas by leveraging street view imagery (SVI) and vision-language models.
 Among the first, we integrated large language models and natural language understanding to analyse 48,752 building images in Hong Kong, identifying eight building clusters aligned to geometric footprints city-wide.

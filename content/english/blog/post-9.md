@@ -10,7 +10,7 @@ author: "Xiucheng"
 draft: false
 ---
 
-<div class="text-xl leading-relaxed text-gray-800 dark:text-gray-200">
+<div class="text-2xl leading-relaxed font-light text-gray-800 dark:text-gray-200">
 Traveling with group members of Urban Analytics Lab to share knowledge and engage with Sustainable Design group at University of Cambridge.
 </div>
 

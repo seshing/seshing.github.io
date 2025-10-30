@@ -10,7 +10,7 @@ author: "Xiucheng"
 draft: false
 ---
 
-<div class="text-xl leading-relaxed text-gray-800 dark:text-gray-200">
+<div class="text-2xl leading-relaxed font-light text-gray-800 dark:text-gray-200">
 Traveling with Prof. Filip Biljecki to share knowledge and engage with the research group at SCUT, discussing innovative ideas in urban studies and computational methods.
 </div>
 

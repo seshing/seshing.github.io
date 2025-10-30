@@ -30,19 +30,19 @@ publications:
 ---
 
 ### Introduction
-<div class="text-xl leading-relaxed text-gray-800 dark:text-gray-200">
+<div class="text-2xl leading-relaxed font-light text-gray-800 dark:text-gray-200">
 This project explores how people perceive building exteriors in urban environments using a combination of traditional survey methods and machine learning. In my presentation, I shared insights from analyzing over 250,000 building images from Singapore, San Francisco, and Amsterdam. By training deep learning models on crowdsourced ratings of 1,200 images across six perceptual attributes — complex, original, ordered, pleasing, boring, and style. 
 </div>
 
 </br>
 
-<div class="text-xl leading-relaxed text-gray-800 dark:text-gray-200">
+<div class="text-2xl leading-relaxed font-light text-gray-800 dark:text-gray-200">
 This approach allowed us to uncover spatial patterns in how architectural exteriors are perceived and their connections to building functions, age, and location. Additionally, we applied propensity score matching to examine how buildings influence streetscape perceptions. Our findings highlight that streetscapes with complex, pleasing, and historical building exteriors tend to evoke positive sentiments, while modern and monotonous designs are often associated with feelings of dullness or negativity. 
 </div>
 
 </br>
 
-<div class="text-xl leading-relaxed text-gray-800 dark:text-gray-200">
+<div class="text-2xl leading-relaxed font-light text-gray-800 dark:text-gray-200">
 These insights aim to help architects and urban planners better understand public sentiment towards building appearances and their role in shaping urban identity.
 </div>
 
