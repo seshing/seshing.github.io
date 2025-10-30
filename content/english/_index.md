@@ -107,7 +107,7 @@ publications:
   - title: "OpenFACADES: an open framework for architectural caption and attribute data enrichment via street view imagery"
     authors:
       - "**Xiucheng Liang**, Jinheng Xie, Tianhong Zhao, Rudi Stouffs, Filip Biljecki"
-    paper_info: "ublished in ISPRS Journal of Photogrammetry and Remote Sensing, 2025"
+    paper_info: "Published in ISPRS Journal of Photogrammetry and Remote Sensing, 2025"
     pdf_link: "https://arxiv.org/pdf/2504.02866"
     doi_link: "https://doi.org/10.1016/j.isprsjprs.2025.10.014"
     code_link: "https://github.com/seshing/OpenFACADES"
