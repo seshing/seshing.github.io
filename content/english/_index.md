@@ -126,24 +126,44 @@ publications:
       }
 
 
-  - title: "Sensing urban soundscapes from street view imagery"
+  # - title: "Sensing urban soundscapes from street view imagery"
+  #   authors:
+  #     - "Tianhong Zhao, **Xiucheng Liang**, Wei Tu, Zhengdong Huang, Filip Biljecki"
+  #   paper_info: "Published in Computers, Environment and Urban Systems, 2023"
+  #   pdf_link: "https://ual.sg/publication/2023-ceus-soundscapes/2023-ceus-soundscapes.pdf"
+  #   code_link: "https://github.com/ualsg/Visual-soundscapes"
+  #   # cite_link: "https://example.com/citation-multi-modal-geospatial"s
+  #   doi_link: "https://doi.org/10.1016/j.compenvurbsys.2022.101915"
+  #   bibtex: |
+  #     @article{zhao2023sensing,
+  #       title={Sensing urban soundscapes from street view imagery},
+  #       author={Zhao, Tianhong and Liang, Xiucheng and Tu, Wei and Huang, Zhengdong and Biljecki, Filip},
+  #       journal={Computers, Environment and Urban Systems},
+  #       volume={99},
+  #       pages={101915},
+  #       year={2023},
+  #       publisher={Elsevier}
+  #     }
+    
+  - title: "Heterogeneous graph neural networks for building attribute prediction from hierarchical urban features and cross-view imagery"
     authors:
-      - "Tianhong Zhao, **Xiucheng Liang**, Wei Tu, Zhengdong Huang, Filip Biljecki"
-    paper_info: "Published in Computers, Environment and Urban Systems, 2023"
-    pdf_link: "https://ual.sg/publication/2023-ceus-soundscapes/2023-ceus-soundscapes.pdf"
-    code_link: "https://github.com/ualsg/Visual-soundscapes"
+      - "**Xiucheng Liang**, Winston Yap, Filip Biljecki"
+    paper_info: "Published in ISPRS Journal of Photogrammetry and Remote Sensing, 2026"
+    pdf_link: "https://ual.sg/publication/2026-ijprs-gnn/2026-ijprs-gnn.pdf"
+    code_link: "https://github.com/seshing/HeteroGNN-building-attribute-prediction/"
     # cite_link: "https://example.com/citation-multi-modal-geospatial"s
-    doi_link: "https://doi.org/10.1016/j.compenvurbsys.2022.101915"
+    doi_link: "https://doi.org/10.1016/j.isprsjprs.2026.02.016"
     bibtex: |
-      @article{zhao2023sensing,
-        title={Sensing urban soundscapes from street view imagery},
-        author={Zhao, Tianhong and Liang, Xiucheng and Tu, Wei and Huang, Zhengdong and Biljecki, Filip},
-        journal={Computers, Environment and Urban Systems},
-        volume={99},
-        pages={101915},
-        year={2023},
-        publisher={Elsevier}
+      @article{liang2026heterognn,
+      title = {Heterogeneous Graph Neural Networks for Building Attribute Prediction from Hierarchical Urban Features and Cross-View Imagery},
+      author = {Liang, Xiucheng and Yap, Winston and Biljecki, Filip},
+      year = 2026,
+      journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
+      volume = {234},
+      pages = {185--204},
+      issn = {0924-2716},
       }
+
   
     button:
       enable: True

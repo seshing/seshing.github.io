@@ -64,7 +64,27 @@ publications:
         pages = {918--942},
         issn = {0924-2716}
         }
-
+  
+  - title: "Heterogeneous graph neural networks for building attribute prediction from hierarchical urban features and cross-view imagery"
+    year: 2026
+    month: 2
+    authors:
+      - "**Xiucheng Liang**, Winston Yap, Filip Biljecki"
+    paper_info: "Published in ISPRS Journal of Photogrammetry and Remote Sensing, 2026"
+    pdf_link: "https://ual.sg/publication/2026-ijprs-gnn/2026-ijprs-gnn.pdf"
+    code_link: "https://github.com/seshing/HeteroGNN-building-attribute-prediction/"
+    doi_link: "https://doi.org/10.1016/j.isprsjprs.2026.02.016"
+    bibtex: |
+      @article{liang2026heterognn,
+      title = {Heterogeneous Graph Neural Networks for Building Attribute Prediction from Hierarchical Urban Features and Cross-View Imagery},
+      author = {Liang, Xiucheng and Yap, Winston and Biljecki, Filip},
+      year = 2026,
+      journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
+      volume = {234},
+      pages = {185--204},
+      issn = {0924-2716},
+      }
+  
   - title: "Sensing urban soundscapes from street view imagery"
     year: 2023
     month: 1
@@ -223,7 +243,7 @@ publications:
     authors:
       - "Matias Quintana, Youlong Gu, **Xiucheng Liang**, Yujun Hou, Koichi Ito, Yihan Zhu, Mahmoud Abdelrahman, Filip Biljecki"
     paper_info: "Published in Nature Cities, 2025"
-    pdf_link: "https://www.researchgate.net/profile/Matias-Quintana/publication/391878067_Global_urban_visual_perception_varies_across_demographics_and_personalities/links/6879b2f67d202419e84d25d7/Global-urban-visual-perception-varies-across-demographics-and-personalities.pdf"
+    pdf_link: "https://ual.sg/publication/2025-natcities-specs/2025-natcities-specs.pdf"
     doi_link: "https://doi.org/10.1038/s44284-025-00330-x"
     bibtex: |
       @article{quintana2025global,
@@ -231,5 +251,23 @@ publications:
         author={Quintana, Matias and Gu, Youlong and Liang, Xiucheng and Hou, Yujun and Ito, Koichi and Zhu, Yihan and Abdelrahman, Mahmoud and Biljecki, Filip},
         journal={Nature Cities},
         year={2025}
+      }
+
+  - title: "A graph neural network for small-area estimation: integrating spatial regularisation, heterogeneous spatial units, and Bayesian inference"
+    year: 2025
+    month: 12
+    authors:
+      - "Pengyuan Liu, Yang Chen, **Xiucheng Liang**, Hao Li, Filip Biljecki, Rudi Stouffs"
+    paper_info: "Published in International Journal of Geographical Information Science, 2025"
+    pdf_link: "https://ual.sg/publication/2026-ijgis-gnn/2026-ijgis-gnn.pdf"
+    doi_link: "https://doi.org/10.1080/13658816.2025.2597971"
+    bibtex: |
+      @article{liu2025graph,
+      title={A graph neural network for small-area estimation: integrating spatial regularisation, heterogeneous spatial units, and Bayesian inference},
+      author={Liu, Pengyuan and Chen, Yang and Liang, Xiucheng and Li, Hao and Biljecki, Filip and Stouffs, Rudi},
+      journal={International Journal of Geographical Information Science},
+      pages={1--39},
+      year={2025},
+      publisher={Taylor \& Francis}
       }
 ---
