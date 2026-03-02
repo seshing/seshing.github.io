@@ -3,7 +3,7 @@ title: "Talk: Attending the International Research Colloguium 2025 - GeoMod 3D:M
 meta_title: ""
 description: "Invited talk at the International Research Colloguium 2025 - GeoMod 3D:Mapping, Modelling & Management held by Faculty of Built Environment and Surveying, Universiti Teknologi Malaysia."
 date: 2025-10-21
-image: "/images/blog/15-geomod/photo.JPG"
+image: "/images/blog/15-geomod/photo.jpg"
 categories: ["Talk"]
 author: "Xiucheng"
 # tags: ["conference"]
