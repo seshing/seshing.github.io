@@ -227,7 +227,7 @@
             <ul class="list-none">
               {{ range . }}
                 {{ $item := . }}
-                <li class="flex items-center justify-center mb-6">
+                <li class="flex items-center justify-center mb-6{{ if $item.monochrome_logo }} experience-monochrome-logo{{ end }}{{ with $item.logo_size }} experience-logo-{{ . }}{{ end }}">
 
                   {{/* Logo wrapper - make clickable if URL provided */}}
                   {{ if $item.url }}

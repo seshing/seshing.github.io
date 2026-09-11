@@ -183,6 +183,24 @@ publications:
 #       link: "/new-feature"
   
 experience:
+  - logo:
+      light: "/images/logos/mit-logo.png"
+      dark: "/images/logos/mit-logo.png"
+    monochrome_logo: true
+    url: "https://sul.mit.edu/"
+    logo_size: "wide"
+    title: "Visiting Scholar"
+    organization: "Massachusetts Institute of Technology (MIT), USA"
+    duration: "July 2026 – January 2027"
+  - logo:
+      light: "/images/logos/pku-logo.png"
+      dark: "/images/logos/pku-logo.png"
+    monochrome_logo: true
+    url: "https://www.irsgis.pku.edu.cn/english/about/index.htm"
+    logo_size: "large"
+    title: "Visiting Scholar"
+    organization: "Institute of Remote Sensing and GIS, Peking University, Beijing, China"
+    duration: "March 2026 – July 2026"
   - logo: 
       light: "/images/logos/ual-logo.png"
       dark: "/images/logos/ual-logo-dark.png"
@@ -190,13 +208,13 @@ experience:
     title: "PhD Researcher  - CGPA: 4.93/5"
     organization: "Urban Analytics Lab, National University of Singapore"
     duration: "August 2023 – Present"
-  - logo: 
-      light: "/images/logos/ual-logo.png"
-      dark: "/images/logos/ual-logo-dark.png"
-    url: "https://ual.sg"
-    title: "Research Assistant"
-    organization: "Urban Analytics Lab, National University of Singapore"
-    duration: "November 2021 – May 2022"
+  # - logo:
+  #     light: "/images/logos/ual-logo.png"
+  #     dark: "/images/logos/ual-logo-dark.png"
+  #   url: "https://ual.sg"
+  #   title: "Research Assistant"
+  #   organization: "Urban Analytics Lab, National University of Singapore"
+  #   duration: "November 2021 – May 2022"
   - logo: 
       light: "/images/logos/nus-logo.png"
       dark: "/images/logos/nus-logo-dark.png"
@@ -208,6 +226,7 @@ experience:
       light: "/images/logos/szu-logo.png"
       dark: "/images/logos/szu-logo-dark.png"
     url: "https://en.szu.edu.cn/"
+    logo_size: "large"
     title: "Bachelor of Engineering in Urban and Rural Planning - CGPA: 3.45/4"
     organization: "School of Architecture and Urban Planning, Shenzhen University"
     duration: "September 2014 – June 2019"

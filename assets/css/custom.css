@@ -1,4 +1,23 @@
 /* Add your own custom styles here */
+.experience-logo-wide img {
+    width: 100px;
+    height: auto;
+}
+
+.experience-logo-large img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.experience-monochrome-logo img {
+    filter: brightness(0);
+}
+
+.dark .experience-monochrome-logo img {
+    filter: brightness(0) invert(1);
+}
+
 .profile-img {
     width: 250px;
     height: auto;
