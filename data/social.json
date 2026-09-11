@@ -1,24 +1,24 @@
 {
   "main": [
     {
-      "name": "facebook",
-      "icon": "fab fa-facebook",
-      "link": "https://www.facebook.com/"
-    },
-    {
-      "name": "twitter",
-      "icon": "fab fa-twitter",
-      "link": "https://twitter.com/"
-    },
-    {
-      "name": "github",
-      "icon": "fab fa-github",
-      "link": "https://www.github.com/"
-    },
-    {
-      "name": "linkedin",
+      "name": "LinkedIn",
       "icon": "fab fa-linkedin",
-      "link": "https://www.linkedin.com/"
+      "link": "https://www.linkedin.com/in/xiucheng-liang/"
+    },
+    {
+      "name": "Google Scholar",
+      "icon": "fab fa-google",
+      "link": "https://scholar.google.com/citations?user=ThZtaeoAAAAJ&hl=en"
+    },
+    {
+      "name": "GitHub",
+      "icon": "fab fa-github",
+      "link": "https://github.com/seshing"
+    },
+    {
+      "name": "Email",
+      "icon": "fas fa-envelope",
+      "link": "mailto:xiucheng@u.nus.edu"
     }
   ]
 }

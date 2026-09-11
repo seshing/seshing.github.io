@@ -28,6 +28,49 @@
     transform: translateX(-2px); /* Moves the image slightly to the right */
 }
 
+.profile-stage {
+    position: relative;
+    isolation: isolate;
+    width: 100%;
+    max-width: 740px;
+    margin: 0 auto;
+}
+
+.profile-stage .profile-img {
+    position: relative;
+    z-index: 1;
+    max-width: 100%;
+}
+
+.profile-ripple {
+    position: absolute;
+    inset: -70px -20px;
+    z-index: 0;
+    pointer-events: none;
+    overflow: hidden;
+    color: #737373;
+    mask-image: radial-gradient(ellipse at center, #000 25%, transparent 72%);
+    background-image: linear-gradient(currentColor 1px, transparent 1px),
+        linear-gradient(90deg, currentColor 1px, transparent 1px);
+    background-size: 28px 28px;
+    opacity: 0.3;
+}
+
+.dark .profile-ripple {
+    color: #d4d4d4;
+    opacity: 0.36;
+}
+
+.profile-ripple canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.profile-ripple.is-ready {
+    background-image: none;
+}
+
 .social-links i {
   font-size: 1.75rem;
   text-align: center;

@@ -12,7 +12,12 @@
               {{ .content | markdownify }}
             </p>
             {{ $profileImg := resources.Get "images/profile_img.jpg" }}
-            <img src="{{ $profileImg.Permalink }}" alt="Profile Image" class="profile-img">
+            <div class="profile-stage" data-profile-ripple>
+              <div class="profile-ripple" aria-hidden="true"><canvas></canvas></div>
+              <img src="{{ $profileImg.Permalink }}" alt="Profile Image" class="profile-img">
+            </div>
+            {{ $rippleScript := resources.Get "js/profile-ripple.js" | minify | fingerprint }}
+            <script defer src="{{ $rippleScript.RelPermalink }}" integrity="{{ $rippleScript.Data.Integrity }}"></script>
             
             {{ with .button }}
               {{ if .enable }}
