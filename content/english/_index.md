@@ -190,7 +190,7 @@ experience:
     url: "https://sul.mit.edu/"
     logo_size: "wide"
     title: "Visiting Scholar"
-    organization: "Massachusetts Institute of Technology (MIT), USA"
+    organization: "Massachusetts Institute of Technology (MIT)"
     duration: "July 2026 – January 2027"
   - logo:
       light: "/images/logos/pku-logo.png"
@@ -199,7 +199,7 @@ experience:
     url: "https://www.irsgis.pku.edu.cn/english/about/index.htm"
     logo_size: "large"
     title: "Visiting Scholar"
-    organization: "Institute of Remote Sensing and GIS, Peking University, Beijing, China"
+    organization: "Institute of Remote Sensing and GIS, Peking University"
     duration: "March 2026 – July 2026"
   - logo: 
       light: "/images/logos/ual-logo.png"
