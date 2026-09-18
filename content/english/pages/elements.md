@@ -6,6 +6,47 @@ draft: false
 layout: "elements"
 
 publications:
+  - title: "Exploring the links amongst place attachment, urban environment qualities, and psychological restoration: A case study of Hong Kong"
+    year: 2026
+    month: 12
+    authors:
+      - "Sifan Cheng, Qiwei Song, **Xiucheng Liang**, Pu Jiang, Filip Biljecki, Jeroen van Ameijde"
+    paper_info: "Published in Cities, 179, 107542, 2026"
+    pdf_link: "https://ual.sg/publication/2026-cities-exploring/2026-cities-exploring.pdf"
+    doi_link: "https://doi.org/10.1016/j.cities.2026.107542"
+    bibtex: |
+      @article{cheng2026exploring,
+        title={Exploring the links amongst place attachment, urban environment qualities, and psychological restoration: A case study of {Hong Kong}},
+        author={Cheng, Sifan and Song, Qiwei and Liang, Xiucheng and Jiang, Pu and Biljecki, Filip and van Ameijde, Jeroen},
+        journal={Cities},
+        volume={179},
+        pages={107542},
+        year={2026},
+        month=dec,
+        doi={10.1016/j.cities.2026.107542}
+      }
+
+  - title: "It is not always greener on the other side: Greenery perception across demographics and personalities in multiple cities"
+    year: 2026
+    month: 7
+    authors:
+      - "Matias Quintana, Fangqi Liu, Jussi Torkko, Youlong Gu, **Xiucheng Liang**, Yujun Hou, Koichi Ito, Yihan Zhu, Mahmoud Abdelrahman, Tuuli Toivonen, Yi Lu, Filip Biljecki"
+    paper_info: "Published in Landscape and Urban Planning, 271, 105618, 2026"
+    pdf_link: "https://ual.sg/publication/2026-land-greenery/2026-land-greenery.pdf"
+    doi_link: "https://doi.org/10.1016/j.landurbplan.2026.105618"
+    code_link: "https://github.com/matqr/greenery-perception"
+    bibtex: |
+      @article{quintana2026greener,
+        title={It is not always greener on the other side: Greenery perception across demographics and personalities in multiple cities},
+        author={Quintana, Matias and Liu, Fangqi and Torkko, Jussi and Gu, Youlong and Liang, Xiucheng and Hou, Yujun and Ito, Koichi and Zhu, Yihan and Abdelrahman, Mahmoud and Toivonen, Tuuli and Lu, Yi and Biljecki, Filip},
+        journal={Landscape and Urban Planning},
+        volume={271},
+        pages={105618},
+        year={2026},
+        month=jul,
+        doi={10.1016/j.landurbplan.2026.105618}
+      }
+
   - title: "Revealing spatio-temporal evolution of urban visual environments with street view imagery"
     year: 2023
     month: 9
@@ -254,20 +295,24 @@ publications:
       }
 
   - title: "A graph neural network for small-area estimation: integrating spatial regularisation, heterogeneous spatial units, and Bayesian inference"
-    year: 2025
-    month: 12
+    year: 2026
+    month: 7
     authors:
       - "Pengyuan Liu, Yang Chen, **Xiucheng Liang**, Hao Li, Filip Biljecki, Rudi Stouffs"
-    paper_info: "Published in International Journal of Geographical Information Science, 2025"
+    paper_info: "Published in International Journal of Geographical Information Science, 40(7), 2358–2396, 2026"
     pdf_link: "https://ual.sg/publication/2026-ijgis-gnn/2026-ijgis-gnn.pdf"
     doi_link: "https://doi.org/10.1080/13658816.2025.2597971"
     bibtex: |
-      @article{liu2025graph,
+      @article{liu2026graph,
       title={A graph neural network for small-area estimation: integrating spatial regularisation, heterogeneous spatial units, and Bayesian inference},
       author={Liu, Pengyuan and Chen, Yang and Liang, Xiucheng and Li, Hao and Biljecki, Filip and Stouffs, Rudi},
       journal={International Journal of Geographical Information Science},
-      pages={1--39},
-      year={2025},
+      volume={40},
+      number={7},
+      pages={2358--2396},
+      year={2026},
+      month=jul,
+      doi={10.1080/13658816.2025.2597971},
       publisher={Taylor \& Francis}
       }
 ---
