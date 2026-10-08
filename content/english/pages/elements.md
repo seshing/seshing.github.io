@@ -6,6 +6,28 @@ draft: false
 layout: "elements"
 
 publications:
+  - title: "Street view video for urban sensing: Potential for measuring urban vitality"
+    year: 2027
+    month: 1
+    authors:
+      - "Youlong Gu, **Xiucheng Liang**, Zicheng Fan, Yujun Hou, Filip Biljecki"
+    paper_info: "Published in Computers, Environment and Urban Systems, 131, 102509, 2027"
+    journal: "Computers, Environment and Urban Systems"
+    journal_cover: "images/journals/ceus-hd.jpg"
+    pdf_link: "https://ual.sg/publication/2027-ceus-svv/2027-ceus-svv.pdf"
+    doi_link: "https://doi.org/10.1016/j.compenvurbsys.2026.102509"
+    bibtex: |
+      @article{gu2027street,
+        title={Street view video for urban sensing: Potential for measuring urban vitality},
+        author={Gu, Youlong and Liang, Xiucheng and Fan, Zicheng and Hou, Yujun and Biljecki, Filip},
+        journal={Computers, Environment and Urban Systems},
+        volume={131},
+        pages={102509},
+        year={2027},
+        month=jan,
+        doi={10.1016/j.compenvurbsys.2026.102509}
+      }
+
   - title: "Exploring the links amongst place attachment, urban environment qualities, and psychological restoration: A case study of Hong Kong"
     year: 2026
     month: 12
@@ -292,6 +314,7 @@ publications:
     authors:
         - "**Xiucheng Liang**, Sifan Cheng, Filip Biljecki"
     paper_info: "Presented at the 19th International Conference on Computational Urban Planning and Urban Management, 2025"
+    journal_cover: "images/journals/cupum-digital-era-urban-transformations.png"
     pdf_link: "https://osf.io/abyqh/files/osfstorage/685400519a7097303ec89a95"
     bibtex: |
         @inproceedings{liang2025decoding,
