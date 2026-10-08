@@ -12,6 +12,8 @@ publications:
     authors:
       - "Sifan Cheng, Qiwei Song, **Xiucheng Liang**, Pu Jiang, Filip Biljecki, Jeroen van Ameijde"
     paper_info: "Published in Cities, 179, 107542, 2026"
+    journal: "Cities"
+    journal_cover: "images/journals/cities.gif"
     pdf_link: "https://ual.sg/publication/2026-cities-exploring/2026-cities-exploring.pdf"
     doi_link: "https://doi.org/10.1016/j.cities.2026.107542"
     bibtex: |
@@ -32,6 +34,8 @@ publications:
     authors:
       - "Matias Quintana, Fangqi Liu, Jussi Torkko, Youlong Gu, **Xiucheng Liang**, Yujun Hou, Koichi Ito, Yihan Zhu, Mahmoud Abdelrahman, Tuuli Toivonen, Yi Lu, Filip Biljecki"
     paper_info: "Published in Landscape and Urban Planning, 271, 105618, 2026"
+    journal: "Landscape and Urban Planning"
+    journal_cover: "images/journals/landscape-urban-planning.gif"
     pdf_link: "https://ual.sg/publication/2026-land-greenery/2026-land-greenery.pdf"
     doi_link: "https://doi.org/10.1016/j.landurbplan.2026.105618"
     code_link: "https://github.com/matqr/greenery-perception"
@@ -53,6 +57,8 @@ publications:
     authors:
       - "**Xiucheng Liang**, Tianhong Zhao, Filip Biljecki"
     paper_info: "Published in Landscape and Urban Planning, 2023"
+    journal: "Landscape and Urban Planning"
+    journal_cover: "images/journals/landscape-urban-planning.gif"
     pdf_link: "https://ual.sg/publication/2023-landup-svi-evolution/2023-landup-svi-evolution.pdf"
     doi_link: "https://doi.org/10.1016/j.landurbplan.2023.104802"
     bibtex: |
@@ -72,6 +78,8 @@ publications:
     authors:
       - "**Xiucheng Liang**, Jiat Hwee Chang, Song Gao, Tianhong Zhao, Filip Biljecki"
     paper_info: "Published in Building and Environment, 2024"
+    journal: "Building and Environment"
+    journal_cover: "images/journals/building-environment-blue.jpg"
     pdf_link: "https://ual.sg/publication/2024-bae-building/2024-bae-building.pdf"
     doi_link: "https://doi.org/10.1016/j.buildenv.2024.111875"
     bibtex: |
@@ -91,6 +99,8 @@ publications:
     authors:
       - "**Xiucheng Liang**, Jinheng Xie, Tianhong Zhao, Rudi Stouffs, Filip Biljecki"
     paper_info: "Published in ISPRS Journal of Photogrammetry and Remote Sensing, 2025"
+    journal: "ISPRS Journal of Photogrammetry and Remote Sensing"
+    journal_cover: "images/journals/isprs.gif"
     pdf_link: "https://arxiv.org/pdf/2504.02866"
     doi_link: "https://doi.org/10.1016/j.isprsjprs.2025.10.014"
     code_link: "https://github.com/seshing/OpenFACADES"
@@ -112,6 +122,8 @@ publications:
     authors:
       - "**Xiucheng Liang**, Winston Yap, Filip Biljecki"
     paper_info: "Published in ISPRS Journal of Photogrammetry and Remote Sensing, 2026"
+    journal: "ISPRS Journal of Photogrammetry and Remote Sensing"
+    journal_cover: "images/journals/isprs.gif"
     pdf_link: "https://ual.sg/publication/2026-ijprs-gnn/2026-ijprs-gnn.pdf"
     code_link: "https://github.com/seshing/HeteroGNN-building-attribute-prediction/"
     doi_link: "https://doi.org/10.1016/j.isprsjprs.2026.02.016"
@@ -132,6 +144,8 @@ publications:
     authors:
       - "Tianhong Zhao, **Xiucheng Liang**, Wei Tu, Zhengdong Huang, Filip Biljecki"
     paper_info: "Published in Computers, Environment and Urban Systems, 2023"
+    journal: "Computers, Environment and Urban Systems"
+    journal_cover: "images/journals/ceus-hd.jpg"
     pdf_link: "https://ual.sg/publication/2023-ceus-soundscapes/2023-ceus-soundscapes.pdf"
     code_link: "https://github.com/ualsg/Visual-soundscapes"
     doi_link: "https://doi.org/10.1016/j.compenvurbsys.2022.101915"
@@ -152,6 +166,8 @@ publications:
     authors:
       - "Filip Biljecki, Tianhong Zhao, **Xiucheng Liang**, Yujun Hou"
     paper_info: "Published in International Journal of Applied Earth Observation and Geoinformation, 2023"
+    journal: "International Journal of Applied Earth Observation and Geoinformation"
+    journal_cover: "images/journals/jag.jpg"
     pdf_link: "https://ual.sg/publication/2023-jag-svi-sensitivity/2023-jag-svi-sensitivity.pdf"
     # code_link: "https://github.com/ualsg/Visual-soundscapes"
     doi_link: "https://doi.org/10.1016/j.jag.2023.103385"
@@ -191,6 +207,8 @@ publications:
     authors:
       - "Koichi Ito, Yihan Zhu, Mahmoud Abdelrahman, **Xiucheng Liang**, Zicheng Fan, Yujun Hou, Tianhong Zhao, Rui Ma, Kunihiko Fujiwara, Jiani Ouyang, Matias Quintana, Filip Biljecki"
     paper_info: "Published in Computers, Environment and Urban Systems, 2025"
+    journal: "Computers, Environment and Urban Systems"
+    journal_cover: "images/journals/ceus-hd.jpg"
     pdf_link: "https://ual.sg/publication/2025-ceus-zensvi/2025-ceus-zensvi.pdf"
     code_link: "https://github.com/koito19960406/ZenSVI"
     doi_link: "https://doi.org/10.1016/j.compenvurbsys.2025.102283"
@@ -211,6 +229,8 @@ publications:
     authors:
       - "Tianhong Zhao, **Xiucheng Liang**, Filip Biljecki, Wei Tu, Jinzhou Cao, Xiaojiang Li, Shengao Yi"
     paper_info: "Published in Computers, Environment and Urban Systems, 2025"
+    journal: "Computers, Environment and Urban Systems"
+    journal_cover: "images/journals/ceus-hd.jpg"
     pdf_link: "https://ual.sg/publication/2025-ceus-svi-seasonality/2025-ceus-svi-seasonality.pdf"
     doi_link: "https://doi.org/10.1016/j.compenvurbsys.2025.102302"
     bibtex: |
@@ -230,6 +250,8 @@ publications:
     authors:
       - "Binyu Lei, Pengyuan Liu, **Xiucheng Liang**, Yingwei Yan, Filip Biljecki"
     paper_info: "Published in Sustainable Cities and Society, 2025"
+    journal: "Sustainable Cities and Society"
+    journal_cover: "images/journals/sustainable-cities.jpg"
     pdf_link: "https://ual.sg/publication/2025-scs-urban-comfort/2025-scs-urban-comfort.pdf"
     doi_link: "https://doi.org/10.1016/j.scs.2024.106121"
     bibtex: |
@@ -249,6 +271,8 @@ publications:
     authors:
       - "Youlong Gu, Matias Quintana, **Xiucheng Liang**, Koichi Ito, Winston Yap, Filip Biljecki"
     paper_info: "Published in Landscape and Urban Planning, 2025"
+    journal: "Landscape and Urban Planning"
+    journal_cover: "images/journals/landscape-urban-planning.gif"
     pdf_link: "https://ual.sg/publication/2025-land-effective-surveys/2025-land-effective-surveys.pdf"
     doi_link: "https://doi.org/10.1016/j.landurbplan.2025.105368"
     bibtex: |
@@ -284,6 +308,8 @@ publications:
     authors:
       - "Matias Quintana, Youlong Gu, **Xiucheng Liang**, Yujun Hou, Koichi Ito, Yihan Zhu, Mahmoud Abdelrahman, Filip Biljecki"
     paper_info: "Published in Nature Cities, 2025"
+    journal: "Nature Cities"
+    journal_cover: "images/journals/nature-cities.png"
     pdf_link: "https://ual.sg/publication/2025-natcities-specs/2025-natcities-specs.pdf"
     doi_link: "https://doi.org/10.1038/s44284-025-00330-x"
     bibtex: |
@@ -300,6 +326,8 @@ publications:
     authors:
       - "Pengyuan Liu, Yang Chen, **Xiucheng Liang**, Hao Li, Filip Biljecki, Rudi Stouffs"
     paper_info: "Published in International Journal of Geographical Information Science, 40(7), 2358–2396, 2026"
+    journal: "International Journal of Geographical Information Science"
+    journal_cover: "images/journals/ijgis.jpg"
     pdf_link: "https://ual.sg/publication/2026-ijgis-gnn/2026-ijgis-gnn.pdf"
     doi_link: "https://doi.org/10.1080/13658816.2025.2597971"
     bibtex: |

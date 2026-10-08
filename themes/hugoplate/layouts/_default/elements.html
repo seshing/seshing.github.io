@@ -36,12 +36,20 @@
               {{ end }}
             {{ end }}
             
-            <div class="publication-item mb-8 p-6 border border-gray-200 dark:border-gray-700 rounded-lg bg-white dark:bg-neutral-900 {{ if $isFirstAuthor }}first-author{{ end }}" 
+            <div class="publication-item mb-8 p-6 border border-gray-200 dark:border-gray-700 rounded-lg bg-white dark:bg-neutral-900 {{ if $isFirstAuthor }}first-author{{ end }}{{ with $pub.journal_cover }} has-journal-cover{{ end }}"
                  data-year="{{ $pub.year }}" 
                  data-month="{{ with $pub.month }}{{ . }}{{ end }}"
                  data-title="{{ $pub.title }}" 
                  data-first-author="{{ $isFirstAuthor }}">
               
+              {{ with $pub.journal_cover }}
+                {{ with resources.Get . }}
+                  <div class="publication-cover-art" aria-hidden="true">
+                    <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="" loading="lazy" decoding="async">
+                  </div>
+                {{ end }}
+              {{ end }}
+              <div class="publication-content">
               <h3 class="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100 {{ if $isFirstAuthor }}text-primary{{ end }}">
                 {{ $pub.title }}
               </h3>
@@ -52,7 +60,11 @@
                 {{ end }}
               </p>
               
-              <p class="text-gray-500 dark:text-gray-400 mb-4">{{ $pub.paper_info }}</p>
+              {{ $paperInfo := $pub.paper_info }}
+              {{ with $pub.journal }}
+                {{ $paperInfo = replace $paperInfo . (printf "*%s*" .) }}
+              {{ end }}
+              <p class="text-gray-500 dark:text-gray-400 mb-4">{{ $paperInfo | markdownify }}</p>
               
               <!-- Action Buttons -->
               <div class="flex flex-wrap gap-3 mb-4">
@@ -81,6 +93,7 @@
                 {{ end }}
               </div>
               
+              </div>
               <!-- Citation Box -->
               {{ with $pub.bibtex }}
                 <div id="{{ $citeID }}" class="citation-box hidden mt-4 p-4 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-600 rounded">
@@ -245,8 +258,38 @@
   line-height: 1rem;
 }
 .publication-item {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
   border-width: 1px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+.dark .publication-item {
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.06);
+}
+.publication-cover-art {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+}
+.publication-cover-art img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: auto;
+  max-width: none;
+  opacity: 0.3;
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 75%);
+  mask-image: linear-gradient(to right, transparent, #000 75%);
+}
+.has-journal-cover .publication-content { padding-right: 100px; }
+.publication-item .citation-box { position: relative; }
+@media (max-width: 640px) {
+  .has-journal-cover .publication-content { padding-right: 24px; }
 }
 .first-author { 
   border-left: 6px solid #424242; /* Light mode color */
@@ -257,7 +300,9 @@
 .publication-item:hover { 
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.15), 0 2px 4px -1px rgba(0, 0, 0, 0.09);
   transform: translateY(-1px);
-  transition: all 0.2s ease-in-out;
+}
+.dark .publication-item:hover {
+  box-shadow: 0 4px 6px -1px rgba(255, 255, 255, 0.15), 0 2px 4px -1px rgba(255, 255, 255, 0.09);
 }
 .citation-box pre {
   max-height: 300px;
