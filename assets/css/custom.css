@@ -126,8 +126,9 @@
 .project-card:hover, .project-card:focus-within { transform: translateY(-4px); box-shadow: 0 8px 24px rgb(0 0 0 / .15); }
 .project-link { display: block; color: inherit; }
 .project-link:focus-visible { outline: 2px solid currentColor; outline-offset: -3px; }
-.project-preview { position: relative; background: #101a20; }
+.project-preview { position: relative; overflow: hidden; background: #101a20; }
 .project-preview video { display: block; width: 100%; height: auto; }
+.project-preview-zoomed video { transform: scale(1.01); transform-origin: top left; }
 .project-details { padding: 1.5rem; }
 .project-details h3 { margin-bottom: .5rem; }
 .project-details p { color: #606873; margin-bottom: 0; }

@@ -11,3 +11,4 @@
   video: videos/projects/environmental-exposure.mp4
   poster: images/projects/environmental-exposure.jpg
   preview_label: Accessibility and environmental exposure exploration preview
+  preview_zoom: true

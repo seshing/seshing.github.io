@@ -5,7 +5,7 @@
     {{ $poster := resources.Get .poster }}
     <article class="project-card{{ if $expanded }} border border-gray-200 dark:border-gray-700{{ end }}">
       <a class="project-link" href="{{ .link }}" target="_blank" rel="noopener" aria-label="Open {{ .title }} demo (opens in a new tab)">
-        <div class="project-preview">
+        <div class="project-preview{{ if .preview_zoom }} project-preview-zoomed{{ end }}">
           <video data-project-video data-src="{{ $video.RelPermalink }}" poster="{{ $poster.RelPermalink }}" width="{{ $poster.Width }}" height="{{ $poster.Height }}" muted loop playsinline preload="none" aria-label="{{ .preview_label }}"></video>
         </div>
         <div class="project-details">
