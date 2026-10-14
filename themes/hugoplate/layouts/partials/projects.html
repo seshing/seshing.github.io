@@ -1,0 +1,20 @@
+{{ $expanded := eq .Layout "projects" }}
+<div class="project-grid">
+  {{ range site.Data.projects }}
+    {{ $video := resources.Get .video }}
+    {{ $poster := resources.Get .poster }}
+    <article class="project-card{{ if $expanded }} border border-gray-200 dark:border-gray-700{{ end }}">
+      <a class="project-link" href="{{ .link }}" target="_blank" rel="noopener" aria-label="Open {{ .title }} demo (opens in a new tab)">
+        <div class="project-preview">
+          <video data-project-video data-src="{{ $video.RelPermalink }}" poster="{{ $poster.RelPermalink }}" width="{{ $poster.Width }}" height="{{ $poster.Height }}" muted loop playsinline preload="none" aria-label="{{ .preview_label }}"></video>
+        </div>
+        <div class="project-details">
+          <h3 class="{{ if $expanded }}text-xl text-gray-900 dark:text-gray-100{{ else }}text-lg{{ end }} font-semibold">{{ .title }}</h3>
+          <p class="{{ if $expanded }}text-base{{ else }}text-sm{{ end }}">{{ .description | markdownify }}</p>
+        </div>
+      </a>
+    </article>
+  {{ end }}
+</div>
+{{ $script := resources.Get "js/projects.js" | minify | fingerprint }}
+<script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" defer></script>

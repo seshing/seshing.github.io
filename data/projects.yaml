@@ -1,0 +1,13 @@
+- title: OpenFACADES
+  description: An open framework for architectural caption and attribute data enrichment via street view imagery
+  link: https://seshing.github.io/OpenFACADES-demo/
+  video: videos/projects/openfacades.mp4
+  poster: images/projects/openfacades.jpg
+  preview_label: Building exploration preview
+
+- title: Environmental Exposure · 15-minute City
+  description: Environmental exposure compression and disparities in the 15-minute city
+  link: https://seshing.github.io/environmental-exposure-15-min-demo/
+  video: videos/projects/environmental-exposure.mp4
+  poster: images/projects/environmental-exposure.jpg
+  preview_label: Accessibility and environmental exposure exploration preview
