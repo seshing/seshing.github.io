@@ -221,7 +221,7 @@ experience:
     url: "https://www.nus.edu.sg"
     title: "Master of Urban Planning - CGPA: 4.78/5"
     organization: "Department of Architecture, National University of Singapore"
-    duration: "June 2021 – March 2023"
+    duration: "August 2020 – June 2022"
   - logo: 
       light: "/images/logos/szu-logo.png"
       dark: "/images/logos/szu-logo-dark.png"
