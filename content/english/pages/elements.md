@@ -126,6 +126,7 @@ publications:
     pdf_link: "https://arxiv.org/pdf/2504.02866"
     doi_link: "https://doi.org/10.1016/j.isprsjprs.2025.10.014"
     code_link: "https://github.com/seshing/OpenFACADES"
+    demo_link: "https://seshing.github.io/OpenFACADES-demo/"
     bibtex: |
       @article{liang2025openfacades,
         title = {OpenFACADES: An open framework for architectural caption and attribute data enrichment via street view imagery},
@@ -148,6 +149,7 @@ publications:
     journal_cover: "images/journals/isprs.gif"
     pdf_link: "https://ual.sg/publication/2026-ijprs-gnn/2026-ijprs-gnn.pdf"
     code_link: "https://github.com/seshing/HeteroGNN-building-attribute-prediction/"
+    demo_link: "https://seshing.github.io/HeteroGNN-demo/"
     doi_link: "https://doi.org/10.1016/j.isprsjprs.2026.02.016"
     bibtex: |
       @article{liang2026heterognn,

@@ -111,6 +111,7 @@ publications:
     pdf_link: "https://arxiv.org/pdf/2504.02866"
     doi_link: "https://doi.org/10.1016/j.isprsjprs.2025.10.014"
     code_link: "https://github.com/seshing/OpenFACADES"
+    demo_link: "https://seshing.github.io/OpenFACADES-demo/"
     # cite_link: "https://example.com/citation-multi-modal-geospatial"s
     # doi_link: "https://doi.org/10.1234/geospatial.2021.003"
     bibtex: |
@@ -151,6 +152,7 @@ publications:
     paper_info: "Published in ISPRS Journal of Photogrammetry and Remote Sensing, 2026"
     pdf_link: "https://ual.sg/publication/2026-ijprs-gnn/2026-ijprs-gnn.pdf"
     code_link: "https://github.com/seshing/HeteroGNN-building-attribute-prediction/"
+    demo_link: "https://seshing.github.io/HeteroGNN-demo/"
     # cite_link: "https://example.com/citation-multi-modal-geospatial"s
     doi_link: "https://doi.org/10.1016/j.isprsjprs.2026.02.016"
     bibtex: |

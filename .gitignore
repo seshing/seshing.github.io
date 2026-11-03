@@ -15,3 +15,6 @@ jsconfig.json
 hugo_stats.json
 go.sum
 yarn.lock
+
+# Local original media backups; not published or committed.
+.local-media/

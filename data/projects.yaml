@@ -12,3 +12,11 @@
   poster: images/projects/environmental-exposure.jpg
   preview_label: Accessibility and environmental exposure exploration preview
   preview_zoom: true
+
+- title: HeteroGNN — Urban Graph for Buildings
+  description: Heterogeneous graph neural networks for building attribute prediction from hierarchical urban features and cross-view imagery
+  link: https://seshing.github.io/HeteroGNN-demo/
+  video: videos/projects/heterognn.mp4
+  poster: images/projects/heterognn.jpg
+  preview_label: Urban heterogeneous graph and building type prediction preview
+  preview_zoom_large: true

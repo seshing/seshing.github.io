@@ -86,6 +86,10 @@
                   </a>
                 {{ end }}
                 
+                {{ with $pub.demo_link }}
+                  <a href="{{ . }}" class="btn btn-secondary btn-sm" target="_blank" rel="noopener">Demo</a>
+                {{ end }}
+
                 {{ with $pub.bibtex }}
                   <button class="btn btn-secondary btn-sm" data-toggle-cite="{{ $citeID }}">
                     BibTeX
