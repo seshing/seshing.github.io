@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f6f7f7">
+  <title>Urban graph for buildings · Washington, D.C.</title>
+  <meta name="description" content="Explore a real Washington, D.C. urban graph, its morphology, and precomputed building-type predictions.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='m4 10 12-6 12 6-12 6Zm0 7 12 6 12-6M4 24l12 6 12-6' fill='none' stroke='%232b72a0' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css?v=35">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+  <script type="module" src="app.js?v=27"></script>
+</head>
+<body>
+  <main id="app">
+    <div id="scene" role="region" aria-label="Interactive three-dimensional urban graph"></div>
+    <div id="node-labels" aria-label="Urban graph nodes"></div>
+    <div id="layer-labels" aria-hidden="true"></div>
+    <div id="prediction-label" class="prediction-label" hidden></div>
+
+    <header class="identity">
+      <svg class="brand-icon" viewBox="0 0 36 40" aria-hidden="true"><path d="m3 11 15-8 15 8-15 8Z"/><path d="m3 20 15 8 15-8M3 29l15 8 15-8"/></svg>
+      <div><span class="wordmark">urban graph for buildings</span><span class="location">Washington, D.C.</span></div>
+    </header>
+
+    <nav class="partner-logos" aria-label="Affiliations">
+      <a href="https://ual.sg/" target="_blank" rel="noopener"><img src="assets/nus-ual-logo.png" alt="NUS — National University of Singapore · Urban Analytics Lab"></a>
+    </nav>
+
+    <div class="top-actions">
+      <button id="home-camera" class="icon-button glass" aria-label="Reset camera" title="Reset camera"><svg viewBox="0 0 24 24"><path d="m4 10 8-6 8 6v10H4Z"/><path d="M9 20v-7h6v7"/></svg></button>
+      <button id="about-button" class="icon-button glass" aria-label="About this demonstration" aria-expanded="false" aria-controls="about-panel"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 11v5M12 7v.2"/></svg></button>
+    </div>
+
+    <div id="legend" class="legend" aria-label="Node types" hidden>
+      <span><i style="--color:#2875ab"></i>Building<b id="count-building"></b></span>
+      <span><i style="--color:#eaa337"></i>Street<b id="count-street"></b></span>
+      <span><i style="--color:#bc5145"></i>Intersection<b id="count-intersection"></b></span>
+      <span><i style="--color:#7a59a4"></i>Urban plot<b id="count-plot"></b></span>
+    </div>
+
+    <section id="inspector" class="glass inspector" aria-label="Selected node details" hidden>
+      <div class="inspector-header"><span id="node-kind" class="node-kind"></span><button id="close-inspector" class="icon-button" aria-label="Close node details"><svg viewBox="0 0 24 24"><path d="m7 7 10 10M17 7 7 17"/></svg></button></div>
+      <h1 id="node-title"></h1>
+      <div id="photo-wrap" class="building-imagery" hidden>
+        <figure><figcaption>Street</figcaption><img id="building-photo" alt=""><div id="street-unavailable" class="image-unavailable" hidden>No street image</div><div id="photo-credit" class="image-credit"></div></figure>
+        <figure><figcaption>Satellite</figcaption><img id="satellite-photo" alt=""><div id="satellite-unavailable" class="image-unavailable" hidden>No satellite image</div><div id="satellite-credit" class="image-credit"></div></figure>
+      </div>
+      <div id="prediction" aria-live="polite"></div>
+      <dl id="metrics" class="metric-grid"></dl>
+      <details id="more-metrics"><summary>More indicators <span>+</span></summary><dl id="extra-metrics" class="metric-grid"></dl></details>
+      <p id="node-note" class="subtle-note"></p>
+      <button id="focus-building" class="text-action" hidden>Use as prediction target <span>↗</span></button>
+    </section>
+
+    <section id="about-panel" class="glass about-panel" aria-label="Data and method" hidden>
+      <div class="inspector-header"><span>Data & method</span><button id="close-about" class="icon-button" aria-label="Close data information"><svg viewBox="0 0 24 24"><path d="m7 7 10 10M17 7 7 17"/></svg></button></div>
+      <p>A small piece of Washington, D.C., shown through buildings, streets, intersections, and urban plots.</p>
+      <p>Real footprints and saved Top-1 / Top-2 building predictions. Morphology is measured in UTM; network indicators retain their full-city values.</p>
+      <p id="data-notes"></p>
+      <div id="source-links"></div>
+      <a href="https://doi.org/10.1016/j.isprsjprs.2026.02.016" target="_blank" rel="noopener">Read the paper ↗</a>
+    </section>
+
+    <div class="bottom-ui">
+      <div id="phase-note" class="phase-note" aria-live="polite">An urban graph, unfolded.</div>
+      <div id="graph-steps" class="graph-steps" role="group" aria-label="Graph construction steps" hidden>
+        <button data-graph-step="0" aria-label="Generate nodes" aria-pressed="true"><small>01</small> Nodes</button>
+        <span id="nodes-step-separator">·</span>
+        <button data-graph-step="1" aria-label="Connect within layers" aria-pressed="false"><small>02</small> Within layers</button>
+        <span>·</span>
+        <button data-graph-step="2" aria-label="Connect across layers" aria-pressed="false"><small>03</small> Across layers</button>
+      </div>
+      <nav class="timeline glass" aria-label="Demonstration stages">
+        <button id="previous" class="icon-button" aria-label="Previous stage" disabled><svg viewBox="0 0 24 24"><path d="m14 6-6 6 6 6"/></svg></button>
+        <div id="stage-tabs" class="stage-tabs">
+          <button data-stage="0" aria-label="City model" aria-current="step"><span class="stage-number">01</span><span class="stage-name">City</span></button>
+          <button data-stage="1" aria-label="Explode layers"><span class="stage-number">02</span><span class="stage-name">Explode</span></button>
+          <button data-stage="2" aria-label="Build graph"><span class="stage-number">03</span><span class="stage-name">Graph</span></button>
+          <button data-stage="3" aria-label="Propagate features"><span class="stage-number">04</span><span class="stage-name">Propagate</span></button>
+        </div>
+        <span class="control-divider"></span>
+        <button id="next" class="next-button">Explode</button>
+        <button id="play" class="icon-button play-button" aria-label="Play demonstration" aria-pressed="false"><svg id="play-icon" viewBox="0 0 24 24"><path d="m9 6 9 6-9 6Z"/></svg></button>
+      </nav>
+    </div>
+    <footer><a href="https://seshing.github.io/" target="_blank" rel="noopener">Xiucheng Liang</a><span>·</span><a href="https://github.com/seshing/HeteroGNN-building-attribute-prediction" target="_blank" rel="noopener">GitHub ↗</a><span>·</span><a href="https://doi.org/10.1016/j.isprsjprs.2026.02.016" target="_blank" rel="noopener">Paper ↗</a><span>·</span><a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap</a><span id="map-status" hidden>· Map unavailable</span></footer>
+    <div id="tooltip" class="tooltip" hidden></div>
+    <div id="loading" role="status"><span class="loading-mark"></span><span>Preparing the city</span></div>
+    <div id="error" class="glass error" role="alert" hidden></div>
+  </main>
+</body>
+</html>
